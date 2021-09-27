@@ -1,0 +1,28 @@
+.banner {
+  max-width: 1200px;
+  padding: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: var(--primary-dark);
+  &-content {
+    max-width: 720px;
+  }
+  &-title {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+  &-description {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  &-img {
+    border-radius: 2rem;
+  }
+  &-img-wrapper {
+    flex-shrink: 0;
+    margin-right: 2rem;
+  }
+}

@@ -1,0 +1,25 @@
+.header {
+  background: var(--primary-dark);
+  color: var(--white);
+  padding: 0.5rem;
+  &-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  &-logo {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 3rem;
+    color: var(--pink);
+  }
+  &-links {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  &-link {
+    margin-right: 1rem;
+  }
+}
