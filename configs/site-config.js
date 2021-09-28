@@ -35,7 +35,7 @@ const siteConfig = {
       site_name: "Saiba Gang NFT",
       images: [
         {
-          url: `${origin}/images/saiba-gang.png`,
+          url: `https://saiba-gang-nft.vercel.app/images/saiba-gang.png`,
           width: 1240,
           height: 480,
           alt: "Saiba Gang NFT",
