@@ -1,9 +1,9 @@
 import styles from "./Header.module.scss";
-import { Logo } from "./Icons";
+import { Logo, Wallet, Twitter, Discord } from "./Icons";
 import Image from "next/image";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const MySwal = withReactContent(Swal);
 const ConnectWalletContent = () => {
@@ -34,6 +34,7 @@ const ConnectWalletContent = () => {
       <button className="connect-wallet-button">
         <Image
           src="/images/math-wallet.svg"
+          className="math-wallet-icon"
           alt="MathWallet"
           width={20}
           height={20}
@@ -58,6 +59,7 @@ const ConnectButton = ({ ...restOfProps }) => {
       className={styles["header-button"]}
       onClick={handleClick}
     >
+      <Wallet className={styles["header-button-icon"]} />
       Connect
     </button>
   );
@@ -74,7 +76,7 @@ export default function Header() {
         <Logo className={styles["header-logo"]} onClick={() => scrollToTop()} />
         <ul className={styles["header-links"]}>
           <li className={styles["header-link"]}>
-            <Link
+            <ScrollLink
               activeClass={styles["header-link--active"]}
               to="about"
               spy={true}
@@ -83,10 +85,10 @@ export default function Header() {
               duration={350}
             >
               About
-            </Link>
+            </ScrollLink>
           </li>
           <li className={styles["header-link"]}>
-            <Link
+            <ScrollLink
               activeClass={styles["header-link--active"]}
               to="roadmap"
               spy={true}
@@ -95,10 +97,10 @@ export default function Header() {
               duration={350}
             >
               Roadmap
-            </Link>
+            </ScrollLink>
           </li>
           <li className={styles["header-link"]}>
-            <Link
+            <ScrollLink
               activeClass={styles["header-link--active"]}
               to="team"
               spy={true}
@@ -107,12 +109,28 @@ export default function Header() {
               duration={350}
             >
               Team
-            </Link>
+            </ScrollLink>
           </li>
           <li className={styles["header-link"]}>
             <ConnectButton />
           </li>
         </ul>
+        <div className={styles["header-social-section"]}>
+          <a
+            href="https://twitter.com/SaibaGang"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Twitter className={styles["header-link-social"]} />
+          </a>
+          <a
+            href="https://discord.gg/cS8QRb4y"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Discord className={styles["header-link-social"]} />
+          </a>
+        </div>
       </div>
     </nav>
   );

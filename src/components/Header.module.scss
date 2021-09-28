@@ -23,6 +23,22 @@
     border: none;
     border-radius: 0.25rem;
     padding: 0.25rem 0.5rem;
+    display: flex;
+    background: white;
+    color: var(--primary-dark);
+    transition: ease 0.3s;
+    outline: none;
+    &:hover,
+    &:focus {
+      color: white;
+      background: var(--pink);
+    }
+
+    &-icon {
+      width: 1em;
+      height: 1em;
+      margin-right: 0.25rem;
+    }
   }
   &-links {
     display: flex;
@@ -64,6 +80,29 @@
         bottom: 0;
         height: 2px;
         background-color: var(--pink);
+      }
+    }
+    &-social {
+      height: 1.5em;
+      width: 1.5em;
+      color: white;
+      &:hover {
+        color: var(--pink);
+      }
+    }
+  }
+  &-social-section {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 1rem;
+      &:focus {
+        outline: none;
+        color: pink;
       }
     }
   }

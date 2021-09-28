@@ -1,36 +1,31 @@
-import { ParallaxBanner } from "react-scroll-parallax";
+import { ParallaxBanner, Parallax } from "react-scroll-parallax";
 import Container from "./Container";
-import Button from "./Button";
 import styles from "./Banner.module.scss";
 
 export default function Banner({ title, description }) {
-  const BannerContent = () => (
-    <Container>
-      <div className={styles["banner-content"]}>
-        <h1 className={styles["banner-title"]}>{title}</h1>
-        <p className={styles["banner-description"]}>{description}</p>
-      </div>
-    </Container>
-  );
-
   return (
     <ParallaxBanner
       layers={[
         {
-          image: "/images/cyberpunk-city.png",
-          amount: -0.3,
+          image: "/images/cyber-bg.jpg",
+          amount: 0.8,
+          expanded: false,
         },
       ]}
       style={{
-        height: "700px",
+        height: "100vh",
       }}
     >
       <div className={styles["banner-container"]}>
         <Container>
           <div className={styles["banner-content"]}>
-            <h1 className={styles["banner-title"]}>{title}</h1>
-            <p className={styles["banner-description"]}>{description}</p>
-            <Button>Mint</Button>
+            <Parallax y={[-100, 100]}>
+              <h1 className={styles["banner-title"]}>
+                Saiba
+                <br />
+                Gang
+              </h1>
+            </Parallax>
           </div>
         </Container>
       </div>
