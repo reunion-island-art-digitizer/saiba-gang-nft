@@ -5,6 +5,7 @@ import siteConfig from "configs/site-config";
 import "../styles/globals.scss";
 import Header from "components/Header";
 import Footer from "components/Footer";
+import FontFace from "components/FontFace";
 
 function MyApp({ Component, pageProps }) {
   const { seo } = siteConfig;
@@ -28,6 +29,7 @@ function MyApp({ Component, pageProps }) {
           <Footer />
         </div>
       </ParallaxProvider>
+      <FontFace />
     </>
   );
 }

@@ -3,10 +3,6 @@
     color: var(--white);
     padding: 1rem 2rem;
     max-width: 720px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-shadow: 0 5px 10px var(--primary-dark);
   }
   &-container {
     width: 100%;
@@ -22,13 +18,17 @@
     z-index: 10;
   }
   &-title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-top: 0;
+    color: var(--pink);
     margin-bottom: 0.25em;
+    font-family: "Oxta", sans-serif;
+    text-transform: uppercase;
   }
   &-description {
     font-size: 1.25rem;
     line-height: 1.5;
+    text-shadow: 0 5px 10px var(--primary-dark);
   }
   &-img {
     border-radius: 2rem;
