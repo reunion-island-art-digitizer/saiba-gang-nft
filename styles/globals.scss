@@ -88,3 +88,19 @@ h2 {
     }
   }
 }
+
+.grid {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.overflow-scroll {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  .gallery-img {
+    margin: 0 2rem;
+    flex-shrink: 0;
+  }
+}

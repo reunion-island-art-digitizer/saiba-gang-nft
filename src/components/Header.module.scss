@@ -1,7 +1,6 @@
 .header {
   background: var(--primary-dark);
   color: var(--white);
-  padding: 0 0.5rem;
   -webkit-box-shadow: 0 10px 2px rgb(0 0 0 / 80%);
   box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
   position: fixed;
@@ -9,6 +8,7 @@
   z-index: 999;
   &-container {
     max-width: 1200px;
+    padding: 0 1rem;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -52,8 +52,7 @@
       position: relative;
       display: flex;
       align-items: center;
-      height: 40px;
-      padding: 0 0.5rem;
+      padding: 1rem;
       cursor: pointer;
 
       &:hover {

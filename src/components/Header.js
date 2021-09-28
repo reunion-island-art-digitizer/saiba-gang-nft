@@ -81,7 +81,7 @@ export default function Header() {
               to="about"
               spy={true}
               smooth={true}
-              offset={-60}
+              offset={-70}
               duration={350}
             >
               About
@@ -93,7 +93,7 @@ export default function Header() {
               to="roadmap"
               spy={true}
               smooth={true}
-              offset={-60}
+              offset={-70}
               duration={350}
             >
               Roadmap
@@ -105,7 +105,7 @@ export default function Header() {
               to="team"
               spy={true}
               smooth={true}
-              offset={-60}
+              offset={-70}
               duration={350}
             >
               Team

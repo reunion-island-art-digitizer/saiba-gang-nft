@@ -1,0 +1,63 @@
+.roadmap {
+  margin-left: 12px;
+  &-step {
+    position: relative;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    &--complete {
+      &:before {
+        content: "";
+        height: 85%;
+        border-left: 3px solid green;
+        top: 38px;
+        position: absolute;
+        left: -1px;
+      }
+      svg {
+        color: green;
+      }
+    }
+    &--active {
+      svg {
+        color: green;
+      }
+      &:before {
+        content: "";
+        height: 83%;
+        border-left: 3px dashed gray;
+        top: 38px;
+        position: absolute;
+        left: -1px;
+      }
+    }
+    &--incomplete {
+      &:before {
+        content: "";
+        width: 22px;
+        position: absolute;
+        height: 22px;
+        left: -11px;
+        background: transparent;
+        border: 2px solid gray;
+        border-radius: 50%;
+      }
+    }
+    &-title {
+      margin-top: 0;
+      font-size: 1.5rem;
+      line-height: 1;
+      font-weight: bold;
+    }
+    &-description {
+      margin: 0;
+    }
+    &-icon {
+      position: absolute;
+      top: 14px;
+      left: -0.875rem;
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+  }
+}

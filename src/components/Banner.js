@@ -2,13 +2,13 @@ import { ParallaxBanner, Parallax } from "react-scroll-parallax";
 import Container from "./Container";
 import styles from "./Banner.module.scss";
 
-export default function Banner({ title, description }) {
+export default function Banner() {
   return (
     <ParallaxBanner
       layers={[
         {
           image: "/images/cyber-bg.jpg",
-          amount: 0.8,
+          amount: 1,
           expanded: false,
         },
       ]}
@@ -18,15 +18,17 @@ export default function Banner({ title, description }) {
     >
       <div className={styles["banner-container"]}>
         <Container>
-          <div className={styles["banner-content"]}>
-            <Parallax y={[-100, 100]}>
-              <h1 className={styles["banner-title"]}>
-                Saiba
-                <br />
-                Gang
-              </h1>
-            </Parallax>
-          </div>
+          <Parallax y={[-25, 25]}>
+            <div className={styles["banner-content"]}>
+              <Parallax y={[50, -50]}>
+                <h1 className={styles["banner-title"]}>
+                  Saiba
+                  <br />
+                  Gang
+                </h1>
+              </Parallax>
+            </div>
+          </Parallax>
         </Container>
       </div>
     </ParallaxBanner>
