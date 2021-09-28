@@ -4,7 +4,7 @@ const FontFace = () => (
       @font-face {
         font-family: "Oxta";
         font-style: normal;
-        font-weight: 400;
+        font-weight: bold;
         font-display: block;
         src: url(/fonts/Oxta.woff) format("woff");
       }

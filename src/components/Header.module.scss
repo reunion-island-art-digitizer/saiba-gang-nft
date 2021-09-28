@@ -1,7 +1,7 @@
 .header {
   background: var(--primary-dark);
   color: var(--white);
-  padding: 0.5rem;
+  padding: 0 0.5rem;
   -webkit-box-shadow: 0 10px 2px rgb(0 0 0 / 80%);
   box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
   position: fixed;
@@ -19,12 +19,52 @@
     margin-right: 3rem;
     color: var(--pink);
   }
+  &-button {
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+  }
   &-links {
     display: flex;
+    align-items: center;
     padding: 0;
     margin: 0;
   }
   &-link {
     margin-right: 1rem;
+    a {
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 40px;
+      padding: 0 0.5rem;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--pink);
+        &:after {
+          position: absolute;
+          content: "";
+          left: 0;
+          right: 0;
+          bottom: 0;
+          height: 2px;
+          background-color: var(--pink);
+        }
+      }
+    }
+
+    &--active {
+      color: var(--pink);
+      &:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 2px;
+        background-color: var(--pink);
+      }
+    }
   }
 }

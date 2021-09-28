@@ -3,11 +3,9 @@ import { DefaultSeo } from "next-seo";
 import { ParallaxProvider } from "react-scroll-parallax";
 import siteConfig from "configs/site-config";
 import "../styles/globals.scss";
-import Header from "components/Header";
-import Footer from "components/Footer";
 import FontFace from "components/FontFace";
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   const { seo } = siteConfig;
   return (
     <>
@@ -19,19 +17,11 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <DefaultSeo {...seo} />
       <ParallaxProvider>
-        <div className="app-wrapper">
-          <div className="body">
-            <Header />
-            <main>
-              <Component {...pageProps} />
-            </main>
-          </div>
-          <Footer />
-        </div>
+        <Component {...pageProps} />
       </ParallaxProvider>
       <FontFace />
     </>
   );
-}
+};
 
 export default MyApp;
