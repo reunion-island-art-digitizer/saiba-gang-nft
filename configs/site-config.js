@@ -1,4 +1,7 @@
+import { getAbsoluteURL } from "utils/getAbsoluteURL";
+
 const baseUrl = "https://github.com/AndrewHeinke/saiba-gang-nft";
+const origin = getAbsoluteURL();
 
 const siteConfig = {
   author: {
@@ -32,15 +35,9 @@ const siteConfig = {
       site_name: "Saiba Gang NFT",
       images: [
         {
-          url: "https://via.placeholder.com/1240x480",
+          url: `${origin}/images/saiba-gang.png`,
           width: 1240,
           height: 480,
-          alt: "Saiba Gang NFT",
-        },
-        {
-          url: "https://via.placeholder.com/1012x506",
-          width: 1012,
-          height: 506,
           alt: "Saiba Gang NFT",
         },
       ],
