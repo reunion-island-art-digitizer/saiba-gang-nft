@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { DefaultSeo } from "next-seo";
+import { ParallaxProvider } from "react-scroll-parallax";
 import siteConfig from "configs/site-config";
 import "../styles/globals.scss";
 import Header from "components/Header";
@@ -16,15 +17,17 @@ function MyApp({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
       </Head>
       <DefaultSeo {...seo} />
-      <div className="app-wrapper">
-        <div className="body">
-          <Header />
-          <main>
-            <Component {...pageProps} />
-          </main>
+      <ParallaxProvider>
+        <div className="app-wrapper">
+          <div className="body">
+            <Header />
+            <main>
+              <Component {...pageProps} />
+            </main>
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
+      </ParallaxProvider>
     </>
   );
 }
