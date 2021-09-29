@@ -1,4 +1,4 @@
-import styles from "./Header.module.scss";
+import styles from "styles/Header.module.scss";
 import { Logo, Wallet, Twitter, Discord } from "./Icons";
 import Image from "next/image";
 import Swal from "sweetalert2";
@@ -65,10 +65,78 @@ const ConnectButton = ({ ...restOfProps }) => {
   );
 };
 
-export default function Header() {
+export default function Header({ size }) {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
+
+  if (size?.width < 720) {
+    return (
+      <nav className={styles["mobile-header"]}>
+        <div className={styles["mobile-header-container"]}>
+          <div className={styles["mobile-header-top"]}>
+            <Logo
+              className={styles["mobile-header-logo"]}
+              onClick={() => scrollToTop()}
+            />
+            <ConnectButton />
+            <a
+              href="https://twitter.com/SaibaGang"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Twitter className={styles["header-link-social"]} />
+            </a>
+            <a
+              href="https://discord.gg/cS8QRb4y"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Discord className={styles["header-link-social"]} />
+            </a>
+          </div>
+          <ul className={styles["header-links"]}>
+            <li className={styles["header-link"]}>
+              <ScrollLink
+                activeClass={styles["header-link--active"]}
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={350}
+              >
+                About
+              </ScrollLink>
+            </li>
+            <li className={styles["header-link"]}>
+              <ScrollLink
+                activeClass={styles["header-link--active"]}
+                to="roadmap"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={350}
+              >
+                Roadmap
+              </ScrollLink>
+            </li>
+            <li className={styles["header-link"]}>
+              <ScrollLink
+                activeClass={styles["header-link--active"]}
+                to="team"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={350}
+              >
+                Team
+              </ScrollLink>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    );
+  }
 
   return (
     <nav className={styles["header"]}>

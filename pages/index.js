@@ -5,11 +5,14 @@ import Container from "components/Container";
 import Roadmap from "components/Roadmap";
 import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
+import useWindowSize from "../src/hooks/useWindowSize";
 
 export default function Home() {
+  const size = useWindowSize();
+
   return (
-    <Layout>
-      <Banner />
+    <Layout size={size}>
+      <Banner size={size} />
       <Section id="about">
         <Container>
           <h2>About</h2>
@@ -23,47 +26,23 @@ export default function Home() {
         <div className="overflow-scroll">
           <Parallax
             x={[-125, 75]}
+            disabled={size?.width < 720}
             styleInner={{ display: "flex", marginTop: "2rem" }}
           >
             <div className="gallery-img">
-              <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
-                width={500}
-                height={500}
-              />
+              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
             </div>
             <div className="gallery-img">
-              <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
-                width={500}
-                height={500}
-              />
+              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
             </div>
             <div className="gallery-img">
-              <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
-                width={500}
-                height={500}
-              />
+              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
             </div>
             <div className="gallery-img">
-              <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
-                width={500}
-                height={500}
-              />
+              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
             </div>
             <div className="gallery-img">
-              <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
-                width={500}
-                height={500}
-              />
+              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
             </div>
           </Parallax>
         </div>

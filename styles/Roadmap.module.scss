@@ -3,14 +3,16 @@
   &-step {
     position: relative;
     padding-left: 2rem;
-    padding-top: 1rem;
     padding-bottom: 3rem;
+    &:last-child {
+      padding-bottom: 1rem;
+    }
     &--complete {
       &:before {
         content: "";
-        height: 85%;
         border-left: 3px solid green;
-        top: 38px;
+        top: 24px;
+        bottom: -2px;
         position: absolute;
         left: -1px;
       }
@@ -24,9 +26,9 @@
       }
       &:before {
         content: "";
-        height: 83%;
         border-left: 3px dashed gray;
-        top: 38px;
+        top: 24px;
+        bottom: -2px;
         position: absolute;
         left: -1px;
       }
@@ -37,7 +39,8 @@
         width: 22px;
         position: absolute;
         height: 22px;
-        left: -11px;
+        top: 2px;
+        left: -10px;
         background: transparent;
         border: 2px solid gray;
         border-radius: 50%;
@@ -54,7 +57,7 @@
     }
     &-icon {
       position: absolute;
-      top: 14px;
+      top: 0;
       left: -0.875rem;
       width: 1.75rem;
       height: 1.75rem;

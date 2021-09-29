@@ -1,4 +1,4 @@
-import styles from "./Footer.module.scss";
+import styles from "styles/Footer.module.scss";
 import { HeartIcon } from "./Icons";
 
 export default function Footer() {

@@ -1,4 +1,4 @@
-import styles from "./Roadmap.module.scss";
+import styles from "styles/Roadmap.module.scss";
 import classNames from "classnames";
 import { Checkmark, Circle } from "./Icons";
 

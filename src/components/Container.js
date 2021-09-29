@@ -1,4 +1,4 @@
-import styles from "./Container.module.scss";
+import styles from "styles/Container.module.scss";
 
 export default function Container({ className, children }) {
   return (

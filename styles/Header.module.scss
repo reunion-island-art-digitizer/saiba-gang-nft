@@ -1,3 +1,5 @@
+@import "mixins";
+
 .header {
   background: var(--primary-dark);
   color: var(--white);
@@ -24,10 +26,16 @@
     border-radius: 0.25rem;
     padding: 0.25rem 0.5rem;
     display: flex;
+    align-items: center;
     background: white;
     color: var(--primary-dark);
     transition: ease 0.3s;
     outline: none;
+
+    @include respond-below(sm) {
+      margin-left: auto;
+    }
+
     &:hover,
     &:focus {
       color: white;
@@ -48,12 +56,22 @@
   }
   &-link {
     margin-right: 1rem;
+    @include respond-below(sm) {
+      margin-right: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
     a {
       position: relative;
       display: flex;
       align-items: center;
       padding: 1rem;
       cursor: pointer;
+
+      @include respond-below(sm) {
+        padding: 0.5rem 1rem;
+      }
 
       &:hover {
         color: var(--pink);
@@ -85,6 +103,9 @@
       height: 1.5em;
       width: 1.5em;
       color: white;
+      @include respond-below(sm) {
+        margin-left: 1rem;
+      }
       &:hover {
         color: var(--pink);
       }
@@ -104,5 +125,31 @@
         color: pink;
       }
     }
+  }
+}
+
+.mobile-header {
+  background: var(--primary-dark);
+  color: var(--white);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 0.5rem 0 0;
+  &-container {
+    max-width: 1200px;
+    padding: 0 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  &-logo {
+    width: 2rem;
+    height: 2rem;
+    color: var(--pink);
+  }
+  &-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
   }
 }
