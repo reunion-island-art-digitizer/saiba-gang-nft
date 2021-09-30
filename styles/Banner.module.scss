@@ -31,6 +31,7 @@
     font-family: "Oxta", sans-serif;
     text-transform: uppercase;
     text-shadow: var(--dark-pink) 0px 6px 0;
+    transform: translateY(-10px);
     @include respond-below(md) {
       font-size: 4rem;
     }

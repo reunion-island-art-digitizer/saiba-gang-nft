@@ -25,24 +25,54 @@ export default function Home() {
         </Container>
         <div className="overflow-scroll">
           <Parallax
-            x={[-125, 75]}
+            x={[-50, 0]}
             disabled={size?.width < 720}
-            styleInner={{ display: "flex", marginTop: "2rem" }}
+            styleInner={{ display: "flex" }}
           >
             <div className="gallery-img">
-              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
+              <Image
+                src="/images/guy.jpg"
+                alt="Saiba Gang"
+                height={500}
+                width={500}
+                layout="responsive"
+              />
             </div>
             <div className="gallery-img">
-              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
+              <Image
+                src="/images/guy.jpg"
+                alt="Saiba Gang"
+                height={500}
+                width={500}
+                layout="responsive"
+              />
             </div>
             <div className="gallery-img">
-              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
+              <Image
+                src="/images/guy.jpg"
+                alt="Saiba Gang"
+                height={500}
+                width={500}
+                layout="responsive"
+              />
             </div>
             <div className="gallery-img">
-              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
+              <Image
+                src="/images/guy.jpg"
+                alt="Saiba Gang"
+                height={500}
+                width={500}
+                layout="responsive"
+              />
             </div>
             <div className="gallery-img">
-              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
+              <Image
+                src="/images/guy.jpg"
+                alt="Saiba Gang"
+                height={500}
+                width={500}
+                layout="responsive"
+              />
             </div>
           </Parallax>
         </div>
@@ -59,8 +89,9 @@ export default function Home() {
               <Image
                 src="/images/guy.jpg"
                 alt="Saiba Gang"
-                width={500}
                 height={500}
+                width={500}
+                layout="responsive"
               />
               <h3>John Doe</h3>
             </div>
@@ -68,8 +99,9 @@ export default function Home() {
               <Image
                 src="/images/guy.jpg"
                 alt="Saiba Gang"
-                width={500}
                 height={500}
+                width={500}
+                layout="responsive"
               />
               <h3>John Doe</h3>
             </div>
@@ -77,8 +109,9 @@ export default function Home() {
               <Image
                 src="/images/guy.jpg"
                 alt="Saiba Gang"
-                width={500}
                 height={500}
+                width={500}
+                layout="responsive"
               />
               <h3>John Doe</h3>
             </div>

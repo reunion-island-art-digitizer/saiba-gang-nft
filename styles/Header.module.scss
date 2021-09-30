@@ -5,8 +5,10 @@
   color: var(--white);
   -webkit-box-shadow: 0 10px 2px rgb(0 0 0 / 80%);
   box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
-  position: fixed;
-  width: 100%;
+  position: sticky;
+  top: -1px;
+  left: 0;
+  right: 0;
   z-index: 999;
   &-container {
     max-width: 1200px;

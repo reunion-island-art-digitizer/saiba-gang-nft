@@ -72,7 +72,7 @@ export default function Header({ size }) {
 
   if (size?.width < 720) {
     return (
-      <nav className={styles["mobile-header"]}>
+      <header className={styles["mobile-header"]}>
         <div className={styles["mobile-header-container"]}>
           <div className={styles["mobile-header-top"]}>
             <Logo
@@ -95,6 +95,56 @@ export default function Header({ size }) {
               <Discord className={styles["header-link-social"]} />
             </a>
           </div>
+          <nav>
+            <ul className={styles["header-links"]}>
+              <li className={styles["header-link"]}>
+                <ScrollLink
+                  activeClass={styles["header-link--active"]}
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={350}
+                >
+                  About
+                </ScrollLink>
+              </li>
+              <li className={styles["header-link"]}>
+                <ScrollLink
+                  activeClass={styles["header-link--active"]}
+                  to="roadmap"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={350}
+                >
+                  Roadmap
+                </ScrollLink>
+              </li>
+              <li className={styles["header-link"]}>
+                <ScrollLink
+                  activeClass={styles["header-link--active"]}
+                  to="team"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={350}
+                >
+                  Team
+                </ScrollLink>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    );
+  }
+
+  return (
+    <header className={styles["header"]}>
+      <div className={styles["header-container"]}>
+        <Logo className={styles["header-logo"]} onClick={() => scrollToTop()} />
+        <nav>
           <ul className={styles["header-links"]}>
             <li className={styles["header-link"]}>
               <ScrollLink
@@ -132,57 +182,11 @@ export default function Header({ size }) {
                 Team
               </ScrollLink>
             </li>
+            <li className={styles["header-link"]}>
+              <ConnectButton />
+            </li>
           </ul>
-        </div>
-      </nav>
-    );
-  }
-
-  return (
-    <nav className={styles["header"]}>
-      <div className={styles["header-container"]}>
-        <Logo className={styles["header-logo"]} onClick={() => scrollToTop()} />
-        <ul className={styles["header-links"]}>
-          <li className={styles["header-link"]}>
-            <ScrollLink
-              activeClass={styles["header-link--active"]}
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={350}
-            >
-              About
-            </ScrollLink>
-          </li>
-          <li className={styles["header-link"]}>
-            <ScrollLink
-              activeClass={styles["header-link--active"]}
-              to="roadmap"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={350}
-            >
-              Roadmap
-            </ScrollLink>
-          </li>
-          <li className={styles["header-link"]}>
-            <ScrollLink
-              activeClass={styles["header-link--active"]}
-              to="team"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={350}
-            >
-              Team
-            </ScrollLink>
-          </li>
-          <li className={styles["header-link"]}>
-            <ConnectButton />
-          </li>
-        </ul>
+        </nav>
         <div className={styles["header-social-section"]}>
           <a
             href="https://twitter.com/SaibaGang"
@@ -200,6 +204,6 @@ export default function Header({ size }) {
           </a>
         </div>
       </div>
-    </nav>
+    </header>
   );
 }

@@ -10,6 +10,7 @@ export default function Banner({ size }) {
         <Image
           src="/images/cyber-bg.jpg"
           alt="Saiba Gang NFT Project"
+          layout="responsive"
           width={720}
           height={405}
         />
