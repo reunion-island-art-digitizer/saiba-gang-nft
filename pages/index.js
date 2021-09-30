@@ -30,49 +30,19 @@ export default function Home() {
             styleInner={{ display: "flex" }}
           >
             <div className="gallery-img">
-              <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
-                height={500}
-                width={500}
-                layout="responsive"
-              />
+              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
             </div>
             <div className="gallery-img">
-              <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
-                height={500}
-                width={500}
-                layout="responsive"
-              />
+              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
             </div>
             <div className="gallery-img">
-              <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
-                height={500}
-                width={500}
-                layout="responsive"
-              />
+              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
             </div>
             <div className="gallery-img">
-              <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
-                height={500}
-                width={500}
-                layout="responsive"
-              />
+              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
             </div>
             <div className="gallery-img">
-              <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
-                height={500}
-                width={500}
-                layout="responsive"
-              />
+              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
             </div>
           </Parallax>
         </div>
@@ -91,7 +61,6 @@ export default function Home() {
                 alt="Saiba Gang"
                 height={500}
                 width={500}
-                layout="responsive"
               />
               <h3>John Doe</h3>
             </div>
@@ -101,7 +70,6 @@ export default function Home() {
                 alt="Saiba Gang"
                 height={500}
                 width={500}
-                layout="responsive"
               />
               <h3>John Doe</h3>
             </div>
@@ -111,7 +79,6 @@ export default function Home() {
                 alt="Saiba Gang"
                 height={500}
                 width={500}
-                layout="responsive"
               />
               <h3>John Doe</h3>
             </div>
