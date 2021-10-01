@@ -18,10 +18,23 @@
     align-items: center;
   }
   &-logo {
-    width: 2rem;
-    height: 2rem;
+    width: 125px;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
     margin-right: 3rem;
     color: var(--pink);
+    @include respond-below(sm) {
+      width: 100px;
+      padding: 0.5rem 0;
+      margin-right: auto;
+    }
+    * {
+      pointer-events: none;
+    }
   }
   &-button {
     border: none;
@@ -55,6 +68,11 @@
     align-items: center;
     padding: 0;
     margin: 0;
+    @include respond-below(sm) {
+      background-color: #13153f;
+      margin-left: -1rem;
+      margin-right: -1rem;
+    }
   }
   &-link {
     margin-right: 1rem;
@@ -144,14 +162,8 @@
     display: flex;
     flex-direction: column;
   }
-  &-logo {
-    width: 2rem;
-    height: 2rem;
-    color: var(--pink);
-  }
   &-top {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
   }
 }

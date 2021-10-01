@@ -30,19 +30,49 @@ export default function Home() {
             styleInner={{ display: "flex" }}
           >
             <div className="gallery-img">
-              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
+              <Image
+                src="/images/guy.jpg"
+                alt="Saiba Gang"
+                height={300}
+                width={300}
+                layout="responsive"
+              />
             </div>
             <div className="gallery-img">
-              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
+              <Image
+                src="/images/guy.jpg"
+                alt="Saiba Gang"
+                height={300}
+                width={300}
+                layout="responsive"
+              />
             </div>
             <div className="gallery-img">
-              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
+              <Image
+                src="/images/guy.jpg"
+                alt="Saiba Gang"
+                height={300}
+                width={300}
+                layout="responsive"
+              />
             </div>
             <div className="gallery-img">
-              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
+              <Image
+                src="/images/guy.jpg"
+                alt="Saiba Gang"
+                height={300}
+                width={300}
+                layout="responsive"
+              />
             </div>
             <div className="gallery-img">
-              <Image src="/images/guy.jpg" alt="Saiba Gang" layout="fill" />
+              <Image
+                src="/images/guy.jpg"
+                alt="Saiba Gang"
+                height={300}
+                width={300}
+                layout="responsive"
+              />
             </div>
           </Parallax>
         </div>

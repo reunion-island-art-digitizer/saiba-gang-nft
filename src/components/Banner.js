@@ -2,16 +2,20 @@ import { ParallaxBanner, Parallax } from "react-scroll-parallax";
 import Container from "./Container";
 import styles from "styles/Banner.module.scss";
 import Image from "next/image";
+import BannerImage from "../../public/images/cyber-bg.jpg";
 
 export default function Banner({ size }) {
   if (size?.width < 720) {
     return (
       <div className={styles["mobile-banner"]}>
         <Image
-          src="/images/cyber-bg.jpg"
+          src={BannerImage}
           alt="Saiba Gang NFT Project"
           width={720}
           height={405}
+          placeholder="blur"
+          layout="responsive"
+          priority
         />
         <div className={styles["mobile-banner-content"]}>
           <h1 className={styles["mobile-banner-title"]}>Saiba Gang</h1>
