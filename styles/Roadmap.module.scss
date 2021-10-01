@@ -1,5 +1,6 @@
 .roadmap {
   margin-left: 12px;
+  margin-top: 2rem;
   &-step {
     position: relative;
     padding-left: 2rem;
@@ -11,7 +12,7 @@
       &:before {
         content: "";
         border-left: 3px solid green;
-        top: 24px;
+        top: 22px;
         bottom: -2px;
         position: absolute;
         left: -1px;
@@ -27,7 +28,7 @@
       &:before {
         content: "";
         border-left: 3px dashed gray;
-        top: 24px;
+        top: 22px;
         bottom: -2px;
         position: absolute;
         left: -1px;
@@ -48,6 +49,7 @@
     }
     &-title {
       margin-top: 0;
+      margin-bottom: 0.5em;
       font-size: 1.5rem;
       line-height: 1;
       font-weight: bold;
@@ -57,7 +59,7 @@
     }
     &-icon {
       position: absolute;
-      top: 0;
+      top: -2px;
       left: -0.875rem;
       width: 1.75rem;
       height: 1.75rem;

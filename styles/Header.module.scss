@@ -18,18 +18,17 @@
     align-items: center;
   }
   &-logo {
-    width: 125px;
+    width: 150px;
     height: auto;
     display: block;
     cursor: pointer;
     justify-content: center;
     align-items: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     margin-right: 3rem;
     color: var(--pink);
     @include respond-below(sm) {
       width: 100px;
-      padding: 0.5rem 0;
       margin-right: auto;
     }
     * {
@@ -85,7 +84,9 @@
     a {
       position: relative;
       display: flex;
+      font-weight: bold;
       align-items: center;
+      text-transform: uppercase;
       padding: 1rem;
       cursor: pointer;
 

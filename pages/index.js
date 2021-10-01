@@ -13,14 +13,26 @@ export default function Home() {
   return (
     <Layout size={size}>
       <Banner size={size} />
-      <Section id="about">
-        <Container>
-          <h2>About</h2>
+      <Section id="lore">
+        <Container className="mb-2">
+          <h2>Lore</h2>
           <p>
-            Surround yourself with angels, positive energy, beautiful people,
-            beautiful souls, clean heart, angel. The first of the month is
-            coming, we have to get money, we have no choice. It cost money to
-            eat and they don’t want you to eat.
+            It is the year 2167 in Wintermoon City, and technology has advanced
+            to the point where human cybernetic enhancement is commonplace in
+            the underground community.
+          </p>
+          <p>
+            The nefarious technocrats that control Wintermoon City, the Kaze
+            Collective, make life on the streets a brutal existence. Teens are
+            force to fight and steal to survive. Alone they struggle to get by,
+            but together...they just might make it. That is why these
+            cybernetically enhanced street punks came together to form the Saiba
+            Gang.
+          </p>
+          <p>
+            These eccentric rebels are bound to have some adventures. They might
+            even be the only force that can topple the system and overthrow the
+            Kaze Collective.
           </p>
         </Container>
         <div className="overflow-scroll">
@@ -40,7 +52,7 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/guy.jpg"
+                src="/images/blue-man.jpg"
                 alt="Saiba Gang"
                 height={300}
                 width={300}
@@ -58,7 +70,7 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/guy.jpg"
+                src="/images/blue-man.jpg"
                 alt="Saiba Gang"
                 height={300}
                 width={300}
@@ -96,7 +108,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/images/guy.jpg"
+                src="/images/blue-man.jpg"
                 alt="Saiba Gang"
                 height={500}
                 width={500}
