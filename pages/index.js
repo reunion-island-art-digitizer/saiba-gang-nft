@@ -24,10 +24,12 @@ export default function Home() {
           <p>
             The nefarious technocrats that control Wintermoon City, the Kaze
             Collective, make life on the streets a brutal existence. Teens are
-            force to fight and steal to survive. Alone they struggle to get by,
-            but together...they just might make it. That is why these
-            cybernetically enhanced street punks came together to form the Saiba
-            Gang.
+            force to fight and steal to survive.
+          </p>
+          <p>
+            Alone they struggle to get by, but together... they just might make
+            it. That is why these cybernetically enhanced street punks came
+            together to form the Saiba Gang.
           </p>
           <p>
             These eccentric rebels are bound to have some adventures. They might
@@ -43,15 +45,6 @@ export default function Home() {
           >
             <div className="gallery-img">
               <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
-                height={300}
-                width={300}
-                layout="responsive"
-              />
-            </div>
-            <div className="gallery-img">
-              <Image
                 src="/images/blue-man.jpg"
                 alt="Saiba Gang"
                 height={300}
@@ -70,7 +63,7 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/blue-man.jpg"
+                src="/images/Goku.png"
                 alt="Saiba Gang"
                 height={300}
                 width={300}
@@ -79,7 +72,16 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/guy.jpg"
+                src="/images/Zooks.png"
+                alt="Saiba Gang"
+                height={300}
+                width={300}
+                layout="responsive"
+              />
+            </div>
+            <div className="gallery-img">
+              <Image
+                src="/images/Leisure-Boi.png"
                 alt="Saiba Gang"
                 height={300}
                 width={300}
@@ -99,30 +101,54 @@ export default function Home() {
           <div className="grid">
             <div>
               <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
+                src="/images/Zooks.png"
+                alt="Zooks Saiba Gang"
                 height={500}
                 width={500}
               />
-              <h3>John Doe</h3>
+              <h3>Zooks – Founder / Visual Director</h3>
+              <a
+                className="twitterLink"
+                rel="noreferrer"
+                target="_blank"
+                href="https://twitter.com/ZooksSol"
+              >
+                @zookssol
+              </a>
             </div>
             <div>
               <Image
-                src="/images/blue-man.jpg"
+                src="/images/Leisure-Boi.png"
                 alt="Saiba Gang"
                 height={500}
                 width={500}
               />
-              <h3>John Doe</h3>
+              <h3>LeisureBoi – Lead Developer</h3>
+              <a
+                className="twitterLink"
+                rel="noreferrer"
+                target="_blank"
+                href="https://twitter.com/SaibaLeisureBoi"
+              >
+                @SaibaLeisureBoi
+              </a>
             </div>
             <div>
               <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
+                src="/images/Goku.png"
+                alt="Goku Saiba Gang"
                 height={500}
                 width={500}
               />
-              <h3>John Doe</h3>
+              <h3>Goku - Community Manager</h3>
+              <a
+                className="twitterLink"
+                rel="noreferrer"
+                target="_blank"
+                href="https://twitter.com/goku_nft"
+              >
+                @goku_nft
+              </a>
             </div>
           </div>
         </Section>

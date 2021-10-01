@@ -11,23 +11,23 @@
     &--complete {
       &:before {
         content: "";
-        border-left: 3px solid green;
+        border-left: 3px solid var(--yellow);
         top: 22px;
         bottom: -2px;
         position: absolute;
         left: -1px;
       }
       svg {
-        color: green;
+        color: var(--yellow);
       }
     }
     &--active {
       svg {
-        color: green;
+        color: var(--yellow);
       }
       &:before {
         content: "";
-        border-left: 3px dashed gray;
+        border-left: 3px dashed var(--yellow);
         top: 22px;
         bottom: -2px;
         position: absolute;
@@ -43,7 +43,7 @@
         top: 2px;
         left: -10px;
         background: transparent;
-        border: 2px solid gray;
+        border: 2px solid var(--yellow);
         border-radius: 50%;
       }
     }

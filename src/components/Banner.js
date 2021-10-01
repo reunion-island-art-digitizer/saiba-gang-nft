@@ -3,6 +3,7 @@ import Container from "./Container";
 import styles from "styles/Banner.module.scss";
 import Image from "next/image";
 import BannerImage from "../../public/images/cyber-bg.jpg";
+import LogoImage from "../../public/images/logo.png";
 
 export default function Banner({ size }) {
   if (size?.width < 720) {
@@ -18,7 +19,16 @@ export default function Banner({ size }) {
           priority
         />
         <div className={styles["mobile-banner-content"]}>
-          <h1 className={styles["mobile-banner-title"]}>Saiba Gang</h1>
+          <div className={styles["mobile-banner-title"]}>
+            <Image
+              priority={true}
+              alt="Saiba Gang Logo"
+              layout="responsive"
+              width={800}
+              height={342}
+              src={LogoImage}
+            />
+          </div>
         </div>
       </div>
     );
@@ -40,13 +50,16 @@ export default function Banner({ size }) {
       <div className={styles["banner-container"]}>
         <Container>
           <div className={styles["banner-content"]}>
-            <Parallax disabled={size?.width < 720} y={[50, -50]}>
-              <h1 className={styles["banner-title"]}>
-                Saiba
-                <br />
-                Gang
-              </h1>
-            </Parallax>
+            <div className={styles["banner-title"]}>
+              <Image
+                priority={true}
+                alt="Saiba Gang Logo"
+                layout="responsive"
+                width={800}
+                height={342}
+                src={LogoImage}
+              />
+            </div>
           </div>
         </Container>
       </div>
