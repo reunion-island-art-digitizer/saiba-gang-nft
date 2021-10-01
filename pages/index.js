@@ -6,6 +6,7 @@ import Roadmap from "components/Roadmap";
 import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
 import useWindowSize from "../src/hooks/useWindowSize";
+import { Twitter } from "components/Icons";
 
 export default function Home() {
   const size = useWindowSize();
@@ -106,14 +107,16 @@ export default function Home() {
                 height={500}
                 width={500}
               />
-              <h3>Zooks – Founder / Visual Director</h3>
               <a
-                className="twitterLink"
                 rel="noreferrer"
                 target="_blank"
                 href="https://twitter.com/ZooksSol"
+                className="twitterLink"
               >
-                @zookssol
+                <Twitter />
+                Zooks
+                <br />
+                Founder / Visual Director
               </a>
             </div>
             <div>
@@ -123,14 +126,16 @@ export default function Home() {
                 height={500}
                 width={500}
               />
-              <h3>LeisureBoi – Lead Developer</h3>
               <a
-                className="twitterLink"
                 rel="noreferrer"
                 target="_blank"
                 href="https://twitter.com/SaibaLeisureBoi"
+                className="twitterLink"
               >
-                @SaibaLeisureBoi
+                <Twitter />
+                LeisureBoi
+                <br />
+                Lead Developer
               </a>
             </div>
             <div>
@@ -140,14 +145,16 @@ export default function Home() {
                 height={500}
                 width={500}
               />
-              <h3>Goku - Community Manager</h3>
               <a
-                className="twitterLink"
                 rel="noreferrer"
                 target="_blank"
                 href="https://twitter.com/goku_nft"
+                className="twitterLink"
               >
-                @goku_nft
+                <Twitter />
+                Goku
+                <br />
+                Community Manager
               </a>
             </div>
           </div>

@@ -70,7 +70,8 @@ p {
 }
 
 .background-section {
-  background-image: url("/images/background.jpg");
+  background-image: url("/images/underground-cyberpunk.jpg");
+  background-size: cover;
   background-position: center center;
   height: 800px;
   width: 100%;
@@ -157,9 +158,19 @@ p {
 .twitterLink {
   color: var(--yellow);
   font-size: 1.25rem;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
+  display: flex;
+  line-height: 1.5;
   &:hover {
     color: var(--pink);
+    text-decoration: underline;
+  }
+  svg {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
   }
 }

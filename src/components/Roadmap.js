@@ -32,12 +32,12 @@ export default function Roadmap() {
       />
       <RoadmapStep
         title="Mint Launch"
-        description="We will be minting 8,888 Saiba Gang members. The mint priced will be determined closer to launch based on what $SOL prices are at that time. Our goal mint date is at end of October / early November."
+        description="We will be minting 8,888 Saiba Gang members. The mint price will be determined closer to launch based on what $SOL prices are at that time. Our goal mint date is at the end of October / early November."
         status="incomplete"
       />
       <RoadmapStep
         title="Community Fund"
-        description="We plan to take a percentage of royalties and feed it right back into a community wallet. We plan to let the community decide what to do with those funds."
+        description="We plan to take a percentage of royalties and feed it right back into a community wallet. The community will decide what to do with those funds."
         status="incomplete"
       />
       <RoadmapStep
