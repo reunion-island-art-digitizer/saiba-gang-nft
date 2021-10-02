@@ -94,7 +94,7 @@ export default function Header({ size }) {
               <Twitter className={styles["header-link-social"]} />
             </a>
             <a
-              href="https://discord.gg/cS8QRb4y"
+              href="https://discord.gg/aRPTxj5FMA"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -202,7 +202,7 @@ export default function Header({ size }) {
             <Twitter className={styles["header-link-social"]} />
           </a>
           <a
-            href="https://discord.gg/cS8QRb4y"
+            href="https://discord.gg/aRPTxj5FMA"
             target="_blank"
             rel="noopener noreferrer"
           >

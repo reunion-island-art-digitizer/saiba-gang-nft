@@ -16,7 +16,7 @@ export default function Footer() {
           <Twitter className={styles["footer-social-link"]} />
         </a>
         <a
-          href="https://discord.gg/cS8QRb4y"
+          href="https://discord.gg/aRPTxj5FMA"
           target="_blank"
           rel="noopener noreferrer"
         >

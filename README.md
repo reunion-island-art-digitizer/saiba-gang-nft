@@ -1,4 +1,4 @@
-<img src="public/images/saiba-gang.png" alt="Saiba Gang" width="600px">
+<img src="public/images/saiba-gang-og.png" alt="Saiba Gang" width="600px">
 
 ## What is the Saiba Gang?
 
