@@ -4,7 +4,6 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import siteConfig from "configs/site-config";
 import "../styles/globals.scss";
 import FontFace from "components/FontFace";
-import * as gtag from "../lib/gtag";
 
 const App = ({ Component, pageProps }) => {
   const { seo } = siteConfig;
@@ -15,22 +14,6 @@ const App = ({ Component, pageProps }) => {
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '${gtag.GA_TRACKING_ID}', {
-          page_path: window.location.pathname,
-        });
-      `,
-          }}
-        />
       </Head>
       <DefaultSeo {...seo} />
       <ParallaxProvider>
