@@ -19,12 +19,12 @@ const App = ({ Component, pageProps }) => {
       </Head>
       <DefaultSeo {...seo} />
       <Script
-        strategy="afterInteractive"
+        strategy="lazyLoad"
         src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
       />
       <Script
         id="gtag-init"
-        strategy="afterInteractive"
+        strategy="lazyLoad"
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
