@@ -3,6 +3,7 @@ import Section from "components/Section";
 import Banner from "components/Banner";
 import Container from "components/Container";
 import Roadmap from "components/Roadmap";
+import FAQ from "components/FAQ";
 import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
 import useWindowSize from "../src/hooks/useWindowSize";
@@ -20,7 +21,7 @@ export default function Home() {
           <p>
             It is the year 2167 in Wintermoon City, and technology has advanced
             to the point where human cybernetic enhancement is commonplace in
-            the underground community. Test.
+            the underground community.
           </p>
           <p>
             The nefarious technocrats that control Wintermoon City, the Kaze
@@ -97,6 +98,9 @@ export default function Home() {
           <h2>Roadmap</h2>
           <Roadmap />
         </Section>
+        <Section id="rarity">
+          <h2>Rarity</h2>
+        </Section>
         <Section id="team">
           <h2>The Team</h2>
           <div className="grid">
@@ -158,6 +162,10 @@ export default function Home() {
               </a>
             </div>
           </div>
+        </Section>
+        <Section id="faq">
+          <h2>FAQs</h2>
+          <FAQ />
         </Section>
       </Container>
       <div className="background-section"></div>

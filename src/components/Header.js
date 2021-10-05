@@ -130,6 +130,18 @@ export default function Header({ size }) {
               <li className={styles["header-link"]}>
                 <ScrollLink
                   activeClass={styles["header-link--active"]}
+                  to="rarity"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={350}
+                >
+                  Rarity
+                </ScrollLink>
+              </li>
+              <li className={styles["header-link"]}>
+                <ScrollLink
+                  activeClass={styles["header-link--active"]}
                   to="team"
                   spy={true}
                   smooth={true}
@@ -137,6 +149,18 @@ export default function Header({ size }) {
                   duration={350}
                 >
                   Team
+                </ScrollLink>
+              </li>
+              <li className={styles["header-link"]}>
+                <ScrollLink
+                  activeClass={styles["header-link--active"]}
+                  to="faq"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={350}
+                >
+                  FAQ
                 </ScrollLink>
               </li>
             </ul>
@@ -179,6 +203,18 @@ export default function Header({ size }) {
             <li className={styles["header-link"]}>
               <ScrollLink
                 activeClass={styles["header-link--active"]}
+                to="rarity"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={350}
+              >
+                Rarity
+              </ScrollLink>
+            </li>
+            <li className={styles["header-link"]}>
+              <ScrollLink
+                activeClass={styles["header-link--active"]}
                 to="team"
                 spy={true}
                 smooth={true}
@@ -186,6 +222,18 @@ export default function Header({ size }) {
                 duration={350}
               >
                 Team
+              </ScrollLink>
+            </li>
+            <li className={styles["header-link"]}>
+              <ScrollLink
+                activeClass={styles["header-link--active"]}
+                to="faq"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={350}
+              >
+                FAQs
               </ScrollLink>
             </li>
             {/* <li className={styles["header-link"]}>

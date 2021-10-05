@@ -13,6 +13,12 @@ body {
   background-color: var(--primary-dark);
 }
 
+button {
+  font-family: "BergenMono-Regular", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
 h1,
 h2 {
   color: var(--pink);
@@ -173,4 +179,10 @@ p {
     margin-right: 1rem;
     flex-shrink: 0;
   }
+}
+
+.collapse-icon {
+  width: 1em;
+  height: 1em;
+  margin-right: 1rem;
 }

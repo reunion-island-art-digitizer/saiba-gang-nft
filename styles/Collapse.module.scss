@@ -1,0 +1,29 @@
+.collapse {
+  &-section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--yellow);
+    margin-bottom: 1rem;
+  }
+  &-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    color: var(--yellow);
+    &:hover {
+      background: var(--pink);
+    }
+  }
+  &-content {
+    padding-left: 3.5rem;
+    p:first-child {
+      margin-top: 0;
+    }
+  }
+}
