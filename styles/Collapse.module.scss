@@ -2,8 +2,11 @@
   &-section {
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--yellow);
+    border: 2px solid var(--yellow);
     margin-bottom: 1rem;
+    &--expanded {
+      background: var(--pink);
+    }
   }
   &-button {
     background: none;
@@ -14,16 +17,13 @@
     font-weight: bold;
     display: flex;
     align-items: center;
-    border-radius: 0;
     color: var(--yellow);
     &:hover {
-      background: var(--pink);
+      background: var(--dark-pink);
     }
   }
   &-content {
     padding-left: 3.5rem;
-    p:first-child {
-      margin-top: 0;
-    }
+    padding-right: 1rem;
   }
 }
