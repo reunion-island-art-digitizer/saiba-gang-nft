@@ -14,6 +14,10 @@ const App = ({ Component, pageProps }) => {
       <Head>
         <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta
+          name="google-site-verification"
+          content="0KKhHvucVIl-vK8f06JklovOvDe4GJlE1mLoHQk9dyQ"
+        />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
       </Head>
