@@ -31,14 +31,15 @@ const siteConfig = {
       locale: "en_US",
       url: "https://saibagang.com",
       title: "Saiba Gang",
-      description: "The Saiba Gang NFT Project",
+      description:
+        "The Saiba Gang are 8,888 unique generative NFTs with attributes and a rarity system. Join the Saiba Gang by owning a character NFT on the Solana Blockchain.",
       site_name: "Saiba Gang NFT",
       images: [
         {
           url: `https://www.saibagang.com/images/saiba-gang-og.png`,
-          width: 1240,
-          height: 480,
-          alt: "Saiba Gang NFT",
+          width: 1200,
+          height: 630,
+          alt: "The Saiba Gang are 8,888 unique generative NFTs with attributes and a rarity system. Join the Saiba Gang by owning a character NFT on the Solana Blockchain.",
         },
       ],
     },
