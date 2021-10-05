@@ -4,8 +4,10 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import siteConfig from "configs/site-config";
 import "../styles/globals.scss";
 import FontFace from "components/FontFace";
+import Script from "next/script";
+import * as gtag from "../lib/gtag";
 
-const MyApp = ({ Component, pageProps }) => {
+const App = ({ Component, pageProps }) => {
   const { seo } = siteConfig;
   return (
     <>
@@ -16,6 +18,18 @@ const MyApp = ({ Component, pageProps }) => {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
       </Head>
       <DefaultSeo {...seo} />
+      <Script
+        strategy="lazyOnLoad"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+      />
+      <Script id="gtag-init" strategy="lazyOnLoad">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', ${gtag.GA_TRACKING_ID});
+        `}
+      </Script>
       <ParallaxProvider>
         <Component {...pageProps} />
       </ParallaxProvider>
@@ -24,4 +38,4 @@ const MyApp = ({ Component, pageProps }) => {
   );
 };
 
-export default MyApp;
+export default App;
