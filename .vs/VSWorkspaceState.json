@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\node_modules\\gsap\\src",
+    "\\node_modules\\gsap\\types",
+    "\\public\\images",
+    "\\src",
+    "\\src\\components",
+    "\\src\\hooks",
+    "\\styles"
+  ],
+  "SelectedNode": "\\package.json",
+  "PreviewInSolutionExplorer": false
+}

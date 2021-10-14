@@ -1,0 +1,29 @@
+@import "mixins";
+
+.footer {
+  display: flex;
+  margin: 0;
+  padding: 2rem;
+  flex-shrink: 0;
+  background-color: var(--primary-dark);
+
+  &-text-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  &-social-link {
+    height: 1.5em;
+    width: 1.5em;
+    color: white;
+    margin-left: 1rem;
+    &:hover {
+      color: var(--orange);
+    }
+  }
+  &-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

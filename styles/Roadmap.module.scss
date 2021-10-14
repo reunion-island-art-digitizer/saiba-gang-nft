@@ -1,0 +1,68 @@
+.roadmap {
+  margin-left: 12px;
+  margin-top: 2rem;
+  &-step {
+    position: relative;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    &:last-child {
+      padding-bottom: 1rem;
+    }
+    &--complete {
+      &:before {
+        content: "";
+        border-left: 3px solid var(--yellow);
+        top: 22px;
+        bottom: -2px;
+        position: absolute;
+        left: -1px;
+      }
+      svg {
+        color: var(--yellow);
+      }
+    }
+    &--active {
+      svg {
+        color: var(--yellow);
+      }
+      &:before {
+        content: "";
+        border-left: 3px dashed var(--yellow);
+        top: 22px;
+        bottom: -2px;
+        position: absolute;
+        left: -1px;
+      }
+    }
+    &--incomplete {
+      &:before {
+        content: "";
+        width: 22px;
+        position: absolute;
+        height: 22px;
+        top: 2px;
+        left: -10px;
+        background: transparent;
+        border: 2px solid var(--yellow);
+        border-radius: 50%;
+      }
+    }
+    &-title {
+      margin-top: 0;
+      margin-bottom: 0.5em;
+      font-size: 1.5rem;
+      line-height: 1;
+      font-weight: bold;
+    }
+    &-description {
+      margin: 0;
+    }
+    &-icon {
+      position: absolute;
+      top: -2px;
+      left: -0.875rem;
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+  }
+}

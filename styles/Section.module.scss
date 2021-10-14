@@ -1,0 +1,23 @@
+@import "mixins";
+
+.section {
+  padding: 4rem 0;
+  @include respond-below(sm) {
+    padding: 1rem 0;
+  }
+  h2 {
+    font-size: 4rem;
+    margin: 0 0 0.5em;
+    position: relative;
+    display: inline-block;
+    text-shadow: 0 0 7px #eee7bf, 0 0 10px #d8cf6e, 0 0 21px #d8cf6e,
+      0 0 42px #b29551, 0 0 82px #b29551, 0 0 92px #b29551;
+    z-index: 1;
+    @include respond-below(sm) {
+      font-size: 2.5rem;
+      margin-top: 2rem;
+      text-shadow: 0 0 7px #eee7bf, 0 0 10px #d8c26e, 0 0 21px #d8cf6e,
+        0 0 42px #d8cf6e;
+    }
+  }
+}
