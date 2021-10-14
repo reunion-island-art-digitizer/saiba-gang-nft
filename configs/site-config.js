@@ -18,7 +18,7 @@ const siteConfig = {
   seo: {
     title: "RIA Boys NFT",
     titleTemplate: "%s - RIA Boys",
-    description: "REunion Island Art Digitizer",
+    description: "Reunion Island Art Digitizer",
       siteUrl: "https://reunion-island-art-digitizer.github.io/saiba-gang-nft/",
     twitter: {
       handle: "@ReunionArt",
