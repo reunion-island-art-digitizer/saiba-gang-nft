@@ -5,18 +5,18 @@ export default function Footer() {
   return (
     <footer className={styles["footer"]}>
       <p className={styles["footer-text-flex"]}>
-        All rights reserved. Est {new Date().getFullYear()}.
+        COPYRIGHT RIAD {new Date().getFullYear()}.
       </p>
       <div className={styles["footer-flex"]}>
         <a
-          href="https://twitter.com/SaibaGang"
+          href="https://twitter.com/ReunionArt"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Twitter className={styles["footer-social-link"]} />
         </a>
         <a
-          href="https://discord.gg/aRPTxj5FMA"
+          href="https://discord.com"
           target="_blank"
           rel="noopener noreferrer"
         >

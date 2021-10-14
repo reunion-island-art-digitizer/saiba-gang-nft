@@ -6,7 +6,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "BergenMono-Regular", sans-serif;
+  font-family: "Heibro", sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   color: var(--white);
@@ -15,18 +15,20 @@ body {
 
 h1,
 h2 {
-  color: var(--pink);
-  font-family: "Oxta", sans-serif;
-  text-transform: uppercase;
+    color: var(--orange);
+    font-family: "Battery Park", sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
 }
 
 h3 {
   font-weight: 400;
+  font-size: 30px;
 }
 
 p {
   font-size: 1.25rem;
-  max-width: 720px;
+  max-width: 850px;
   line-height: 1.5;
   font-weight: 400;
   @include respond-below(sm) {
@@ -70,7 +72,7 @@ p {
 }
 
 .background-section {
-  background-image: url("/images/underground-cyberpunk.jpg");
+  background-image: url("/images/HeaderImage.jpg");
   background-size: cover;
   background-position: center center;
   height: 800px;
@@ -111,7 +113,6 @@ p {
 
 .grid {
   display: grid;
-  grid-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
@@ -156,21 +157,23 @@ p {
 }
 
 .twitterLink {
-  color: var(--yellow);
-  font-size: 1.25rem;
-  text-decoration: none;
-  cursor: pointer;
-  display: flex;
-  line-height: 1.5;
-  &:hover {
-    color: var(--pink);
-    text-decoration: underline;
-  }
-  svg {
-    width: 1em;
-    height: 1em;
-    margin-top: 0.25rem;
-    margin-right: 1rem;
-    flex-shrink: 0;
-  }
+    color: var(--yellow);
+    font-size: 1.25rem;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    line-height: 1.5;
+
+    &:hover {
+        color: var(--orange);
+        text-decoration: underline;
+    }
+
+    svg {
+        width: 2em;
+        height: 2em;
+        margin-top: 0.25rem;
+        margin-right: 1rem;
+        flex-shrink: 0;
+    }
 }

@@ -7,6 +7,7 @@ import FontFace from "components/FontFace";
 import Script from "next/script";
 import * as gtag from "../lib/gtag";
 
+
 const App = ({ Component, pageProps }) => {
   const { seo } = siteConfig;
   return (

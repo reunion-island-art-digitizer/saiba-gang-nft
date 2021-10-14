@@ -12,7 +12,7 @@ const Logo = ({ ...restOfProps }) => (
     <Image
       src={LogoImg}
       priority={true}
-      alt="Saiba Gang Logo"
+      alt="Ria Boys Logo"
       layout="responsive"
       width={800}
       height={342}
@@ -87,14 +87,14 @@ export default function Header({ size }) {
             <Logo onClick={() => scroll.scrollToTop()} />
             {/* <ConnectButton /> */}
             <a
-              href="https://twitter.com/SaibaGang"
+              href="https://twitter.com/ReunionArt"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Twitter className={styles["header-link-social"]} />
             </a>
             <a
-              href="https://discord.gg/aRPTxj5FMA"
+              href="https://discord.gg/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -112,7 +112,7 @@ export default function Header({ size }) {
                   offset={-70}
                   duration={350}
                 >
-                  Lore
+                  RIA Boys
                 </ScrollLink>
               </li>
               <li className={styles["header-link"]}>
@@ -155,13 +155,13 @@ export default function Header({ size }) {
             <li className={styles["header-link"]}>
               <ScrollLink
                 activeClass={styles["header-link--active"]}
-                to="lore"
+                to="RIA Boys"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={350}
               >
-                Lore
+                RIA Boys
               </ScrollLink>
             </li>
             <li className={styles["header-link"]}>

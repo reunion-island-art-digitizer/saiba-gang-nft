@@ -20,12 +20,12 @@
   font-size: 1.25rem;
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
-  background: var(--pink);
-  box-shadow: var(--light-pink) 0px 1px 8px 1px;
+  background: var(--orange);
+  box-shadow: var(--light-orange) 0px 1px 8px 1px;
   border: 0;
   transition: 0.3s ease;
   color: var(--primary-dark);
   &:focus {
-    box-shadow: pink 0px 0px 0px 3px;
+    box-shadow: orange 0px 0px 0px 3px;
   }
 }

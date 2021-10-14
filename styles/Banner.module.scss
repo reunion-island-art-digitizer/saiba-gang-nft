@@ -4,10 +4,10 @@
   &-content {
     padding: 1rem;
     background: var(--primary-dark);
-    box-shadow: 0 0 7px #eebfec, 0 0 10px #d86ed5, 0 0 21px #d86ed5,
-      0 0 42px #a851b2, 0 0 82px #a851b2, 0 0 92px #a851b2, 0 0 151px #a851b2;
+    box-shadow: 0 0 7px #eeecbf, 0 0 10px #d8d36e, 0 0 21px #d8d36e,
+      0 0 42px #d8d36e, 0 0 82px #d8d36e, 0 0 92px #d8d36e, 0 0 151px #d8d36e;
     display: inline-block;
-    outline: 1px solid #eebfec;
+    outline: 1px solid #eeecbf;
   }
   &-container {
     width: 100%;
@@ -52,6 +52,6 @@
     padding: 0.5rem;
     background: var(--primary-dark);
     display: flex;
-    border: 2px solid var(--pink);
+    border: 2px solid var(--orange);
   }
 }

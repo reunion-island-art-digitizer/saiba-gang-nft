@@ -1,53 +1,61 @@
 import Layout from "components/Layout";
 import Section from "components/Section";
+import Mint from "components/Mint";
 import Banner from "components/Banner";
 import Container from "components/Container";
-import Roadmap from "components/Roadmap";
 import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
 import useWindowSize from "../src/hooks/useWindowSize";
 import { Twitter } from "components/Icons";
+import Timelines from "components/Timelines";
 
 export default function Home() {
   const size = useWindowSize();
 
-  return (
-    <Layout size={size}>
-      <Banner size={size} />
-      <Section id="lore">
+    return (
+      <Layout size={size}>
+            <Banner size={size} />
+            
+      <Section id="RIA Boys">
         <Container className="mb-2">
-          <h2>Lore</h2>
+          <h2>RIA Boys</h2>
           <p>
-            It is the year 2167 in Wintermoon City, and technology has advanced
-            to the point where human cybernetic enhancement is commonplace in
-            the underground community.
+            The art of Reunion Island has been unknown to ordinary people for years.
+            Our mission is to promote this wonderful art to the whole world.                              
           </p>
           <p>
-            The nefarious technocrats that control Wintermoon City, the Kaze
-            Collective, make life on the streets a brutal existence. Teens are
-            force to fight and steal to survive.
+            To achieve this, we will create an association to help promote artists.
+            Once gathered in this place, we will be able to launch their careers in Web 3.0 with NFTs. 
+            We will create an NFT Market with Coin tips for the artists of Reunion Island .            
+          </p>
+          <h3> For that, we need you !</h3>
+          <p>
+            We created RIA BOYS in order to bring together enough people interested in art and ready to participate in this project.
           </p>
           <p>
-            Alone they struggle to get by, but together... they just might make
-            it. That is why these cybernetically enhanced street punks came
-            together to form the Saiba Gang.
+            You made the right decision in seeking employment with us and as such you
+            will be tested to make sure you are made to be a RIA BOYS.
+            You will start as an insider and will need to prove yourself to rise in our ranks.
           </p>
           <p>
-            These eccentric rebels are bound to have some adventures. They might
-            even be the only force that can topple the system and overthrow the
-            Kaze Collective.
+            The RIA BOYS have very limited places for recruiting and will not be accepting any
+            more insiders once we have recruited 9 740 members.
           </p>
-        </Container>
+          <p>
+            If you want to be part of this adventure with us and be respected,
+            make sure you are one of the 9 740 to be part of the RIA BOYS.
+          </p>
+                </Container>
         <div className="overflow-scroll">
           <Parallax
-            x={[-50, 0]}
+            x={[-40, 20]}
             disabled={size?.width < 720}
             styleInner={{ display: "flex" }}
           >
             <div className="gallery-img">
               <Image
-                src="/images/blue-man.jpg"
-                alt="Saiba Gang"
+                src="/images/Slider1.jpg"
+                alt="RIA Superman"
                 height={300}
                 width={300}
                 layout="responsive"
@@ -55,8 +63,8 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/guy.jpg"
-                alt="Saiba Gang"
+                src="/images/Slider2.jpg"
+                alt="RIA Batman"
                 height={300}
                 width={300}
                 layout="responsive"
@@ -64,8 +72,8 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/Goku.png"
-                alt="Saiba Gang"
+                src="/images/Slider3.jpg"
+                alt="RIA Hulk"
                 height={300}
                 width={300}
                 layout="responsive"
@@ -73,8 +81,8 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/Zooks.png"
-                alt="Saiba Gang"
+                src="/images/Slider4.jpg"
+                alt="RIA Jack Sparrow"
                 height={300}
                 width={300}
                 layout="responsive"
@@ -82,8 +90,8 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/Leisure-Boi.png"
-                alt="Saiba Gang"
+                src="/images/Slider5.jpg"
+                alt="RIA Deadpool"
                 height={300}
                 width={300}
                 layout="responsive"
@@ -92,69 +100,54 @@ export default function Home() {
           </Parallax>
         </div>
       </Section>
+
+    <Container >
+       <Section id="Roadmap">
+         <h2>Roadmap</h2>
+         <Timelines /> 
+       </Section>
+            </Container>
+
       <Container>
-        <Section id="roadmap">
-          <h2>Roadmap</h2>
-          <Roadmap />
-        </Section>
         <Section id="team">
           <h2>The Team</h2>
           <div className="grid">
             <div>
               <Image
-                src="/images/Zooks.png"
-                alt="Zooks Saiba Gang"
+                src="/images/TEAM1.jpg"
+                alt="RIA Team"
                 height={500}
                 width={500}
               />
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://twitter.com/ZooksSol"
+                href="https://twitter.com/Fonzy974"
                 className="twitterLink"
               >
                 <Twitter />
-                Zooks
+                Fonzy974
                 <br />
-                Founder / Visual Director
+                Founder / Visual Director / Community Manager
               </a>
             </div>
             <div>
               <Image
-                src="/images/Leisure-Boi.png"
-                alt="Saiba Gang"
+                src="/images/TEAM2.jpg"
+                alt="RIA Team"
                 height={500}
                 width={500}
               />
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://twitter.com/SaibaLeisureBoi"
+                href="https://twitter.com/"
                 className="twitterLink"
               >
                 <Twitter />
-                LeisureBoi
+                Lili974
                 <br />
-                Lead Developer
-              </a>
-            </div>
-            <div>
-              <Image
-                src="/images/Goku.png"
-                alt="Goku Saiba Gang"
-                height={500}
-                width={500}
-              />
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://twitter.com/goku_nft"
-                className="twitterLink"
-              >
-                <Twitter />
-                Goku
-                <br />
-                Community Manager
+                Founder / Visual Artist / Community Manager
               </a>
             </div>
           </div>

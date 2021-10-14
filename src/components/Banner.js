@@ -2,7 +2,7 @@ import { ParallaxBanner, Parallax } from "react-scroll-parallax";
 import Container from "./Container";
 import styles from "styles/Banner.module.scss";
 import Image from "next/image";
-import BannerImage from "../../public/images/cyber-bg.jpg";
+import BannerImage from "../../public/images/HeaderImage.jpg";
 import LogoImage from "../../public/images/logo.png";
 
 export default function Banner({ size }) {
@@ -22,7 +22,7 @@ export default function Banner({ size }) {
           <div className={styles["mobile-banner-title"]}>
             <Image
               priority={true}
-              alt="Saiba Gang Logo"
+              alt="RIA Boys Logo"
               layout="responsive"
               width={800}
               height={342}
@@ -38,7 +38,7 @@ export default function Banner({ size }) {
     <ParallaxBanner
       layers={[
         {
-          image: "/images/cyber-bg.jpg",
+              image: "/images/HeaderImage.jpg",
           amount: 1,
           expanded: false,
         },
@@ -53,7 +53,7 @@ export default function Banner({ size }) {
             <div className={styles["banner-title"]}>
               <Image
                 priority={true}
-                alt="Saiba Gang Logo"
+                alt="RIA Boys Logo"
                 layout="responsive"
                 width={800}
                 height={342}
