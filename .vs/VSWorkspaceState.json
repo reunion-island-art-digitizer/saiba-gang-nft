@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.git",
     "\\pages",
-    "\\src"
+    "\\public"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\pages\\index.js",
   "PreviewInSolutionExplorer": false
 }
