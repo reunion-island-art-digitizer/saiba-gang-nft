@@ -4,13 +4,13 @@
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: "Heibro", sans-serif;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  color: var(--white);
-  background-color: var(--primary-dark);
+    padding: 0;
+    margin: 0;
+    font-family: "Heibro", sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: var(--white);
+    background-color: linear-gradient(180deg, #EEEFD1 4.69%, #EFD1D9 33.85%, #BCCDDD 100%);
 }
 
 h1,
