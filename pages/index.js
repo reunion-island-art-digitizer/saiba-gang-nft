@@ -14,7 +14,7 @@ export default function Home() {
 
     return (
       <Layout >
-            
+            <Banner />            
       <Section id="RIA Boys">
         <Container className="mb-2">
           <h2>RIA Boys</h2>
