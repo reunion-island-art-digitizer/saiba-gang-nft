@@ -13,8 +13,7 @@ export default function Home() {
   const size = useWindowSize();
 
     return (
-      <Layout size={size}>
-            <Banner size={size} />
+      <Layout >
             
       <Section id="RIA Boys">
         <Container className="mb-2">
