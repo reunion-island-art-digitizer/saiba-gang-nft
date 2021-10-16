@@ -1,7 +1,7 @@
 @import "mixins";
 
 .header {
-  background: var(--primary-dark);
+  background: rgb(0 0 0 / 30%);
   color: var(--white);
   -webkit-box-shadow: 0 10px 2px rgb(0 0 0 / 80%);
   box-shadow: 0 10px 10px rgb(0 0 0 / 20%);

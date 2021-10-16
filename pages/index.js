@@ -99,9 +99,30 @@ export default function Home() {
           </Parallax>
         </div>
       </Section>
+            
+    <Container >
+       <Section id="own">
+         <h2>Own to Earn</h2>
+                    <p>Owning a #RIA Boys allows you to regularly get benefits when we launch future artist #NFTs, RIAD Token, RIAD Marketplace, IDOs and more.</p>
+                    <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
+                    <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Boys is the first stone.</p>
+       </Section>
+    </Container>
+                 
+    <Container >
+       <Section id="mint">
+         <h2>Mint</h2>
+                    <p>9 730 RIA Boys drawn by hand and generated randomly will be available during the mint.</p>
+                    <p>The various attributes will be distributed randomly with more or less rarity.</p>
+                    <p>Some attributes using the colors of the Reunion Island flag will be extremely rare.</p>
+                    <p>They will be accompanied by 10 RIA Boys representing famous characters.</p>
+                    <p>Possessing one of its specific attributes or one of the known characters will bring even more benefits to the holders.</p>
+                    <p>Lucky owners will be able to access unique artist #NFTs, private sales, IRL meetings and more.</p>
+       </Section>
+    </Container>
 
     <Container >
-       <Section id="Roadmap">
+       <Section id="roadmap">
          <h2>Roadmap</h2>
          <Timelines /> 
        </Section>
@@ -113,7 +134,7 @@ export default function Home() {
           <div className="grid">
             <div>
               <Image
-                src="/images/TEAM1.jpg"
+                src="/images/TEAM1.png"
                 alt="RIA Team"
                 height={500}
                 width={500}

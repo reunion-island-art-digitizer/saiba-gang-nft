@@ -11,7 +11,7 @@ export default function Banner({ size }) {
       <div className={styles["mobile-banner"]}>
         <Image
           src={BannerImage}
-          alt="Saiba Gang NFT Project"
+          alt="RIA Boys"
           width={720}
           height={405}
           placeholder="blur"
@@ -24,8 +24,8 @@ export default function Banner({ size }) {
               priority={true}
               alt="RIA Boys Logo"
               layout="responsive"
-              width={800}
-              height={342}
+              width={700}
+              height={242}
               src={LogoImage}
             />
           </div>

@@ -118,7 +118,31 @@ export default function Header({ size }) {
               <li className={styles["header-link"]}>
                 <ScrollLink
                   activeClass={styles["header-link--active"]}
-                  to="Roadmap"
+                  to="own"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={350}
+                >
+                  Own
+                </ScrollLink>
+              </li>
+              <li className={styles["header-link"]}>
+                <ScrollLink
+                  activeClass={styles["header-link--active"]}
+                  to="mint"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={350}
+                >
+                  Mint
+                </ScrollLink>
+              </li>
+              <li className={styles["header-link"]}>
+                <ScrollLink
+                  activeClass={styles["header-link--active"]}
+                  to="roadmap"
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -176,6 +200,30 @@ export default function Header({ size }) {
                 Roadmap
               </ScrollLink>
             </li>
+              <li className={styles["header-link"]}>
+                <ScrollLink
+                  activeClass={styles["header-link--active"]}
+                  to="own"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={350}
+                >
+                  Own
+                </ScrollLink>
+              </li>
+              <li className={styles["header-link"]}>
+                <ScrollLink
+                  activeClass={styles["header-link--active"]}
+                  to="mint"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={350}
+                >
+                  Mint
+                </ScrollLink>
+              </li>
             <li className={styles["header-link"]}>
               <ScrollLink
                 activeClass={styles["header-link--active"]}
@@ -195,14 +243,14 @@ export default function Header({ size }) {
         </nav>
         <div className={styles["header-social-section"]}>
           <a
-            href="https://twitter.com/SaibaGang"
+            href="https://twitter.com/ReunionArt"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Twitter className={styles["header-link-social"]} />
           </a>
           <a
-            href="https://discord.gg/aRPTxj5FMA"
+            href="https://discord.gg/"
             target="_blank"
             rel="noopener noreferrer"
           >
