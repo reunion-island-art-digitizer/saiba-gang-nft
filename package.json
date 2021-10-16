@@ -1,5 +1,5 @@
 {
-    "homepage": "https://reunion-island-art-digitizer.github.io/saiba-gang-nft/",
+    "homepage": "https://reunion-island-art-digitizer.github.io/saiba-gang-nft",
     "name": "saiba-gang-nft",
     "version": "1.0.0",
     "private": true,
@@ -18,9 +18,9 @@
         "gh-pages": "^3.2.3",
         "next": "11.1.2",
         "next-seo": "^4.28.1",
-        "react": "17.0.2",
+        "react": "^17.0.2",
         "react-chrono": "^1.12.1",
-        "react-dom": "17.0.2",
+        "react-dom": "^17.0.2",
         "react-parallax": "^3.3.0",
         "react-scroll": "^1.8.4",
         "react-scroll-parallax": "^2.4.0",
@@ -30,7 +30,11 @@
         "typescript": "^4.4.4"
     },
     "devDependencies": {
-        "eslint": "7.32.0",
-        "eslint-config-next": "11.1.2"
+        "eslint-config-airbnb": "18.2.1",
+        "eslint-config-next": "11.1.2",
+        "eslint-plugin-import": "2.22.1",
+        "eslint-plugin-jsx-a11y": "6.4.1",
+        "eslint-plugin-react": "7.21.5",
+        "eslint-plugin-react-hooks": "1.7.0"
     }
 }

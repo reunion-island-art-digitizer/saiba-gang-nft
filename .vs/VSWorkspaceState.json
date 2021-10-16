@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\configs",
-    "\\styles"
+    "\\pages",
+    "\\src"
   ],
   "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false

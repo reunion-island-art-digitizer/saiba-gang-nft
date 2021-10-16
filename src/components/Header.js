@@ -118,7 +118,7 @@ export default function Header({ size }) {
               <li className={styles["header-link"]}>
                 <ScrollLink
                   activeClass={styles["header-link--active"]}
-                  to="roadmap"
+                  to="Roadmap"
                   spy={true}
                   smooth={true}
                   offset={-70}
