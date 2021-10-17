@@ -107,7 +107,7 @@ export default function Home() {
                     <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
                     <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Boys is the first stone.</p>
                     <Image
-                        src="public/images/earn.png"
+                        src="../images/earn.png"
                         priority={true}
                         alt="Own To Earn"
                         layout="responsive"
