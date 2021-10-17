@@ -99,7 +99,7 @@ export default function Home() {
           </Parallax>
         </div>
       </Section>
-            
+
     <Container >
        <Section id="own">
          <h2>Own to Earn</h2>
@@ -128,13 +128,111 @@ export default function Home() {
                     <p>Lucky owners will be able to access unique artist #NFTs, private sales, IRL meetings and more.</p>
        </Section>
     </Container>
-
-    <Container >
-       <Section id="roadmap">
-         <h2>Roadmap</h2>
-         <Timelines /> 
-       </Section>
+            <Container>
+                <Section>
+                    <h2>Roadmap</h2>
+                </Section>
             </Container>
+            <Section id="timeline">
+                
+                <div class="tl-item">
+
+                    <div class="tl-bg" >
+                        <image
+                            background-image="url(https://placeimg.com/801/801/nature)"
+                        />
+                    </div>
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">Nov 2021</p>
+                    </div>
+
+                    <div class="tl-content">
+                        <h1>Mint</h1>
+                        <p>9740 RIA Boys come alive and will be added to Rarity Tools.</p>
+                    </div>
+
+                </div>
+
+                <div class="tl-item">
+                    <div class="tl-bg" >
+                        <image
+                            background-image="url(https://placeimg.com/801/801/nature)"
+                        />
+                    </div>
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">Dec 2021</p>
+                    </div>
+
+                    <div class="tl-content">
+                        <h1 class="f3 text--accent ttu">Giweavays Holder</h1>
+                        <p> 5 random RIA Boys holders will receive 1 more NFT as a gift.</p>
+                    </div>
+
+                </div>
+
+                <div class="tl-item">
+                    <div class="tl-bg" src="public/images/HeaderImage.jpg">
+                    </div>
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">Janv 2022</p>
+                    </div>
+
+                    <div class="tl-content">
+                        <h1 class="f3 text--accent ttu">Association</h1>
+                        <p>Creation of the association for the promotion of Reunion Island Artists.</p>
+                    </div>
+
+                </div>
+
+                <div class="tl-item">
+                    <div class="tl-bg" >
+                        <image
+                            src="public/images/HeaderImage.jpg"
+                        />
+                    </div>
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">Fev 2022</p>
+                    </div>
+
+                    <div class="tl-content">
+                        <h1 class="f3 text--accent ttu">Giveaway</h1>
+                        <p>3 giveaways for twitter, discord, and holders in partnership with our artists.</p>
+                    </div>
+
+                </div><div class="tl-item">
+                    <div class="tl-bg" >
+                        <image
+                            src="public/images/HeaderImage.jpg"
+                        />
+                    </div>
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">Mar 2022</p>
+                    </div>
+
+                    <div class="tl-content">
+                        <h1 class="f3 text--accent ttu">Marketplace</h1>
+                        <p>Creation of marketplace for our Reunion Island Artists.
+                            Birth of the RIA Girls project with Coin creation.</p>
+                    </div>
+
+                </div>
+                <div class="tl-item">
+                    <div class="tl-bg" >
+                        <image
+                            src="public/images/HeaderImage.jpg"
+                        />
+                    </div>
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">After</p>
+                    </div>
+
+                    <div class="tl-content">
+                        <h1 class="f3 text--accent ttu">Life of project</h1>
+                        <p>Launch of the global RIAD project: Reunion Island Art Digitizer.</p>
+                    </div>
+
+                </div>
+            </Section>
 
       <Container>
         <Section id="team">

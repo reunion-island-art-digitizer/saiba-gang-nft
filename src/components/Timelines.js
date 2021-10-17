@@ -11,7 +11,7 @@ function Timelines() {
                     theme={{
                         primary: "Orange",
                         secondary: "Yellow",
-                        cardBgColor: "#00000005",
+                        cardBgColor: "#0000000",
                         cardForeColor: "white",
                         titleColor: "black",
                     }}

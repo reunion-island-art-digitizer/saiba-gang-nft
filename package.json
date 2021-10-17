@@ -16,6 +16,7 @@
         "@typescript-eslint/eslint-plugin": "^5.0.0",
         "classnames": "^2.2.6",
         "gh-pages": "^3.2.3",
+        "jquery": "^3.6.0",
         "next": "11.1.2",
         "next-seo": "^4.28.1",
         "react": "^17.0.2",
