@@ -107,7 +107,7 @@ export default function Home() {
                     <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
                     <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Boys is the first stone.</p>
                     <Image
-                        src="pubic/images/earn.png"
+                        src="/images/earn.png"
                         priority={true}
                         alt="Own To Earn"
                         layout="responsive"
@@ -135,89 +135,90 @@ export default function Home() {
             </Container>
             <Section id="timeline">
                 
-                <div class="tl-item">
+                <div className="tl-item">
 
-                    <div class="tl-bg" >
+                    <div className="tl-bg" >
                        
                     </div>
-                    <div class="tl-year">
-                        <p class="f2 heading--sanSerif">Nov 2021</p>
+                    <div className="tl-year">
+                        <p className="f2 heading--sanSerif">Nov 2021</p>
                     </div>
 
-                    <div class="tl-content">
+                    <div className="tl-content">
                         <h1>Mint</h1>
                         <p>9740 RIA Boys come alive and will be added to Rarity Tools.</p>
                     </div>
 
                 </div>
 
-                <div class="tl-item">
-                    <div class="tl-bg1" >
+                <div className="tl-item">
+                    <div className="tl-bg1" >
                         
                     </div>
-                    <div class="tl-year">
-                        <p class="f2 heading--sanSerif">Dec 2021</p>
+                    <div className="tl-year">
+                        <p className="f2 heading--sanSerif">Dec 2021</p>
                     </div>
 
-                    <div class="tl-content">
-                        <h1 class="f3 text--accent ttu">Giweavays Holder</h1>
+                    <div className="tl-content">
+                        <h1 className="f3 text--accent ttu">Giweavays Holder</h1>
                         <p> 5 random RIA Boys holders will receive 1 more NFT as a gift.</p>
                     </div>
 
                 </div>
 
-                <div class="tl-item">
-                    <div class="tl-bg2">
+                <div className="tl-item">
+                    <div className="tl-bg2">
                     </div>
-                    <div class="tl-year">
-                        <p class="f2 heading--sanSerif">Janv 2022</p>
+                    <div className="tl-year">
+                        <p className="f2 heading--sanSerif">Janv 2022</p>
                     </div>
 
-                    <div class="tl-content">
-                        <h1 class="f3 text--accent ttu">Association</h1>
+                    <div className="tl-content">
+                        <h1 className="f3 text--accent ttu">Association</h1>
                         <p>Creation of the association for the promotion of Reunion Island Artists.</p>
                     </div>
 
                 </div>
 
-                <div class="tl-item">
-                    <div class="tl-bg3" >
+                <div className="tl-item">
+                    <div className="tl-bg3" >
                         
                     </div>
-                    <div class="tl-year">
-                        <p class="f2 heading--sanSerif">Fev 2022</p>
+                    <div className="tl-year">
+                        <p className="f2 heading--sanSerif">Fev 2022</p>
                     </div>
 
-                    <div class="tl-content">
-                        <h1 class="f3 text--accent ttu">Giveaway</h1>
+                    <div className="tl-content">
+                        <h1 className="f3 text--accent ttu">Giveaway</h1>
                         <p>3 giveaways for twitter, discord, and holders in partnership with our artists.</p>
                     </div>
 
-                </div><div class="tl-item">
-                    <div class="tl-bg4" >
+                </div>
+                <div className="tl-item">
+                    <div className="tl-bg4" >
                         
                     </div>
-                    <div class="tl-year">
-                        <p class="f2 heading--sanSerif">Mar 2022</p>
+                    <div className="tl-year">
+                        <p className="f2 heading--sanSerif">Mar 2022</p>
                     </div>
 
-                    <div class="tl-content">
-                        <h1 class="f3 text--accent ttu">Marketplace</h1>
+                    <div className="tl-content">
+                        <h1 className="f3 text--accent ttu">Marketplace</h1>
                         <p>Creation of marketplace for our Reunion Island Artists.
                             Birth of the RIA Girls project with Coin creation.</p>
                     </div>
 
                 </div>
-                <div class="tl-item">
-                    <div class="tl-bg5" >
+                <div className="tl-item">
+                    <div className="tl-bg5" >
                         
                     </div>
-                    <div class="tl-year">
-                        <p class="f2 heading--sanSerif">After</p>
+                    <div className="tl-year">
+                        <p className="f2 heading--sanSerif">After</p>
                     </div>
 
-                    <div class="tl-content">
-                        <h1 class="f3 text--accent ttu">Life of project</h1>
+                    <div className="tl-content">
+                        <h1 className="f3 text--accent ttu">Life of project</h1>
                         <p>Launch of the global RIAD project: Reunion Island Art Digitizer.</p>
                     </div>
 
