@@ -242,7 +242,7 @@ p {
 
         .tl-bg {
             filter: grayscale(0);
-            background-image: url("https://placeimg.com/801/801/nature");
+            background-image: public/images/HeaderImage.jpg;
         }
     }
 }
@@ -269,7 +269,7 @@ p {
 
 .tl-bg {
     transform: translate3d(0, 0, 0);
-    background-image: url("https://placeimg.com/801/801/nature");
+    background-image: public/images/HeaderImage.jpg;
     position: absolute;
     width: 100%;
     height: 100%;

@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.git",
     "\\pages",
-    "\\public"
+    "\\public",
+    "\\public\\images",
+    "\\src",
+    "\\src\\components",
+    "\\styles"
   ],
-  "SelectedNode": "\\pages\\index.js",
+  "SelectedNode": "\\src\\components\\Timelines.js",
   "PreviewInSolutionExplorer": false
 }

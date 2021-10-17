@@ -107,7 +107,7 @@ export default function Home() {
                     <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
                     <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Boys is the first stone.</p>
                     <Image
-                        src="/images/earn.png"
+                        src="public/images/earn.png"
                         priority={true}
                         alt="Own To Earn"
                         layout="responsive"
@@ -139,7 +139,7 @@ export default function Home() {
 
                     <div class="tl-bg" >
                         <image
-                            background-image="url(https://placeimg.com/801/801/nature)"
+                            background-image="public/images/HeaderImage.jpg"
                         />
                     </div>
                     <div class="tl-year">
@@ -156,7 +156,7 @@ export default function Home() {
                 <div class="tl-item">
                     <div class="tl-bg" >
                         <image
-                            background-image="url(https://placeimg.com/801/801/nature)"
+                            background-image="public/images/HeaderImage.jpg"
                         />
                     </div>
                     <div class="tl-year">
