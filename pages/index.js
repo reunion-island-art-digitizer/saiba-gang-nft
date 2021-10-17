@@ -138,9 +138,7 @@ export default function Home() {
                 <div class="tl-item">
 
                     <div class="tl-bg" >
-                        <image
-                            background-image="../public/images/HeaderImage.jpg"
-                        />
+                       
                     </div>
                     <div class="tl-year">
                         <p class="f2 heading--sanSerif">Nov 2021</p>
@@ -154,10 +152,8 @@ export default function Home() {
                 </div>
 
                 <div class="tl-item">
-                    <div class="tl-bg" >
-                        <image
-                            background-image="../public/images/HeaderImage.jpg"
-                        />
+                    <div class="tl-bg1" >
+                        
                     </div>
                     <div class="tl-year">
                         <p class="f2 heading--sanSerif">Dec 2021</p>
@@ -171,7 +167,7 @@ export default function Home() {
                 </div>
 
                 <div class="tl-item">
-                    <div class="tl-bg" src="../public/images/HeaderImage.jpg">
+                    <div class="tl-bg2">
                     </div>
                     <div class="tl-year">
                         <p class="f2 heading--sanSerif">Janv 2022</p>
@@ -185,10 +181,8 @@ export default function Home() {
                 </div>
 
                 <div class="tl-item">
-                    <div class="tl-bg" >
-                        <image
-                            src="../public/images/HeaderImage.jpg"
-                        />
+                    <div class="tl-bg3" >
+                        
                     </div>
                     <div class="tl-year">
                         <p class="f2 heading--sanSerif">Fev 2022</p>
@@ -200,10 +194,8 @@ export default function Home() {
                     </div>
 
                 </div><div class="tl-item">
-                    <div class="tl-bg" >
-                        <image
-                            src="../public/images/HeaderImage.jpg"
-                        />
+                    <div class="tl-bg4" >
+                        
                     </div>
                     <div class="tl-year">
                         <p class="f2 heading--sanSerif">Mar 2022</p>
@@ -217,10 +209,8 @@ export default function Home() {
 
                 </div>
                 <div class="tl-item">
-                    <div class="tl-bg" >
-                        <image
-                            src="../public/images/HeaderImage.jpg"
-                        />
+                    <div class="tl-bg5" >
+                        
                     </div>
                     <div class="tl-year">
                         <p class="f2 heading--sanSerif">After</p>

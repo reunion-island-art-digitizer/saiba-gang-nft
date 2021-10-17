@@ -242,6 +242,32 @@ p {
 
         .tl-bg {
             filter: grayscale(0);
+            background-image: url("../public/images/HeaderImage.jpg");
+        }
+
+        .tl-bg1 {
+            filter: grayscale(0);
+            background-image: url("../public/images/eruption.jpg");
+        }
+
+        .tl-bg3 {
+            filter: grayscale(0);
+            background-image: url("../public/images/lagon.jpg");
+        }
+
+        .tl-bg4 {
+            filter: grayscale(0);
+            background-image: url("../public/images/mariee.jpg");
+        }
+
+        .tl-bg2 {
+            filter: grayscale(0);
+            background-image: url("../public/images/maido.jpg");
+        }
+
+        .tl-bg5 {
+            filter: grayscale(0);
+            background-image: url("../public/images/sable.jpg");
         }
     }
 }
@@ -268,6 +294,77 @@ p {
 
 .tl-bg {
     transform: translate3d(0, 0, 0);
+    background-image: url("../public/images/HeaderImage.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    transition: filter 0.5s ease;
+    filter: grayscale(100%);
+}
+
+.tl-bg1 {
+    transform: translate3d(0, 0, 0);
+    background-image: url("../public/images/eruption.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    transition: filter 0.5s ease;
+    filter: grayscale(100%);
+}
+
+.tl-bg2 {
+    transform: translate3d(0, 0, 0);
+    background-image: url("../public/images/lagon.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    transition: filter 0.5s ease;
+    filter: grayscale(100%);
+}
+
+.tl-bg3 {
+    transform: translate3d(0, 0, 0);
+    background-image: url("../public/images/mariee.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    transition: filter 0.5s ease;
+    filter: grayscale(100%);
+}
+
+.tl-bg4 {
+    transform: translate3d(0, 0, 0);
+    background-image: url("../public/images/maido.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    transition: filter 0.5s ease;
+    filter: grayscale(100%);
+}
+
+.tl-bg6 {
+    transform: translate3d(0, 0, 0);
+    background-image: url("../public/images/sable.jpg");
     position: absolute;
     width: 100%;
     height: 100%;
