@@ -3,7 +3,7 @@ import Container from "./Container";
 import styles from "styles/Banner.module.scss";
 import Image from "next/image";
 import BannerImage from "../../public/images/HeaderImage.jpg";
-import LogoImage from "../../public/images/logo.png";
+import LogoImage from "../../public/images/rapslogowhite.png";
 
 export default function Banner({ size }) {
   if (size?.width < 720) {
@@ -22,10 +22,10 @@ export default function Banner({ size }) {
           <div className={styles["mobile-banner-title"]}>
             <Image
               priority={true}
-              alt="RIA Boys Logo"
+              alt="RIA Geck Logo"
               layout="responsive"
-              width={700}
-              height={242}
+              width={800}
+              height={500}
               src={LogoImage}
             />
           </div>

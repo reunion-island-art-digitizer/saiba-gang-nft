@@ -3,11 +3,7 @@
 .banner {
   &-content {
     padding: 1rem;
-    background: var(--primary-dark);
-    box-shadow: 0 0 7px #eeecbf, 0 0 10px #d8d36e, 0 0 21px #d8d36e,
-      0 0 42px #d8d36e, 0 0 82px #d8d36e, 0 0 92px #d8d36e, 0 0 151px #d8d36e;
     display: inline-block;
-    outline: 1px solid #eeecbf;
   }
   &-container {
     width: 100%;
@@ -23,13 +19,11 @@
     z-index: 10;
   }
   &-title {
-    display: block;
-    width: 400px;
+    width: 600px;
     height: auto;
   }
 
   &-img {
-    border-radius: 2rem;
   }
   &-img-wrapper {
     flex-shrink: 0;
@@ -42,7 +36,6 @@
   position: relative;
 
   &-title {
-    display: block;
     width: 200px;
     height: auto;
   }
@@ -50,8 +43,5 @@
     justify-content: center;
     width: 100%;
     padding: 0.5rem;
-    background: rgb(0 0 0 / 0%);
-    display: flex;
-    border: 2px solid var(--orange);
   }
 }
