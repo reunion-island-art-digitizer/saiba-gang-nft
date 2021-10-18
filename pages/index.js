@@ -111,8 +111,8 @@ export default function Home() {
                         priority={true}
                         alt="Own To Earn"
                         layout="responsive"
-                        width={800}
-                        height={600}
+                        width={500}
+                        height={300}
                     />
        </Section>
     </Container>
