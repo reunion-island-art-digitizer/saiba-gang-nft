@@ -188,18 +188,6 @@ export default function Header({ size }) {
                 RIA Boys
               </ScrollLink>
             </li>
-            <li className={styles["header-link"]}>
-              <ScrollLink
-                activeClass={styles["header-link--active"]}
-                to="roadmap"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={350}
-              >
-                Roadmap
-              </ScrollLink>
-            </li>
               <li className={styles["header-link"]}>
                 <ScrollLink
                   activeClass={styles["header-link--active"]}
@@ -224,6 +212,18 @@ export default function Header({ size }) {
                   Mint
                 </ScrollLink>
               </li>
+            <li className={styles["header-link"]}>
+              <ScrollLink
+                activeClass={styles["header-link--active"]}
+                to="roadmap"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={350}
+              >
+                Roadmap
+              </ScrollLink>
+            </li>
             <li className={styles["header-link"]}>
               <ScrollLink
                 activeClass={styles["header-link--active"]}

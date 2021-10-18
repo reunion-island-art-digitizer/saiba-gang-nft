@@ -129,7 +129,7 @@ export default function Home() {
        </Section>
     </Container>
             <Container>
-                <Section>
+                <Section id="roadmap">
                     <h2>Roadmap</h2>
                 </Section>
             </Container>
