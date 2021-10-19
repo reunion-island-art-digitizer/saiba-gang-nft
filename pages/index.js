@@ -206,7 +206,7 @@ export default function Home() {
                         <h1 className="f3 text--accent ttu">Marketplace</h1>
                         <p>Creation of marketplace for our Reunion Island Artists.
                             Creation of RIAD Coin for tips artist.
-                            Birth of an other RIA #NFT project. Coin creation.</p>
+                            Birth of an other RIA #NFT project.</p>
                     </div>
 
                 </div>
