@@ -4,8 +4,10 @@
     "\\pages",
     "\\public",
     "\\public\\images",
+    "\\src",
+    "\\src\\components",
     "\\styles"
   ],
-  "SelectedNode": "\\pages\\index.js",
+  "SelectedNode": "\\src\\components\\Header.js",
   "PreviewInSolutionExplorer": false
 }
