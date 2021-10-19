@@ -110,8 +110,8 @@ export default function Home() {
                         <Image
                 src="/images/Earn.png"
                 alt="Own To Earn"
-                height={500}
-                width={400}
+                height={600}
+                width={800}
                         />
                     </div>
        </Section>
