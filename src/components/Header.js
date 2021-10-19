@@ -185,7 +185,7 @@ export default function Header({ size }) {
                 offset={-70}
                 duration={350}
               >
-                RIA Boys
+                RIA Geck
               </ScrollLink>
             </li>
               <li className={styles["header-link"]}>
