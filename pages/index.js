@@ -108,7 +108,7 @@ export default function Home() {
                     <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Boys is the first stone.</p>
                     <p>
                     <Image
-                        src="public/images/earn.png"
+                        src="images/earn.png"
                         alt="Own To Earn"
                         width="500px"
                         height="300px"
