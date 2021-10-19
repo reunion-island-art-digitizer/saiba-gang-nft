@@ -106,13 +106,14 @@ export default function Home() {
                     <p>Owning a #RIA Boys allows you to regularly get benefits when we launch future artist #NFTs, RIAD Token, RIAD Marketplace, IDOs and more.</p>
                     <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
                     <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Boys is the first stone.</p>
-                    <p>
-                    <Image
-                        src="/images/earn.png"
-                        width="500px"
-                        height="300px"
-                    />
-                    </p>
+                    <div>
+                        <Image
+                src="/images/Earn.png"
+                alt="Own To Earn"
+                height={500}
+                width={400}
+                        />
+                    </div>
        </Section>
     </Container>
                  
