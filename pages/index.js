@@ -17,7 +17,7 @@ export default function Home() {
             <Banner />            
       <Section id="RIA Boys">
         <Container className="mb-2">
-          <h2>RIA Boys</h2>
+          <h2>RIA Geck</h2>
           <p>
             The art of Reunion Island has been unknown to ordinary people for years.
             Our mission is to promote this wonderful art to the whole world.                              
@@ -29,20 +29,20 @@ export default function Home() {
           </p>
           <h3> For that, we need you !</h3>
           <p>
-            We created RIA BOYS in order to bring together enough people interested in art and ready to participate in this project.
+            We created RIA Geck in order to bring together enough people interested in art and ready to participate in this project.
           </p>
           <p>
             You made the right decision in seeking employment with us and as such you
-            will be tested to make sure you are made to be a RIA BOYS.
+            will be tested to make sure you are made to be a RIA Geck.
             You will start as an insider and will need to prove yourself to rise in our ranks.
           </p>
           <p>
-            The RIA BOYS have very limited places for recruiting and will not be accepting any
+            The RIA Geck have very limited places for recruiting and will not be accepting any
             more insiders once we have recruited 9 740 members.
           </p>
           <p>
             If you want to be part of this adventure with us and be respected,
-            make sure you are one of the 9 740 to be part of the RIA BOYS.
+            make sure you are one of the 9 740 to be part of the RIA Geck.
           </p>
                 </Container>
         <div className="overflow-scroll">
@@ -103,9 +103,9 @@ export default function Home() {
     <Container >
        <Section id="own">
          <h2>Own to Earn</h2>
-                    <p>Owning a #RIA Boys allows you to regularly get benefits when we launch future artist #NFTs, RIAD Token, RIAD Marketplace, IDOs and more.</p>
+                    <p>Owning a #RIA Geck allows you to regularly get benefits when we launch future artist #NFTs, RIAD Token, RIAD Marketplace, IDOs and more.</p>
                     <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
-                    <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Boys is the first stone.</p>
+                    <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Geck is the first stone.</p>
                     <div>
                         <Image
                 src="/images/Earn.png"
@@ -120,10 +120,10 @@ export default function Home() {
     <Container >
        <Section id="mint">
          <h2>Mint</h2>
-                    <p>9 730 RIA Boys drawn by hand and generated randomly will be available during the mint.</p>
+                    <p>9 730 RIA Geck drawn by hand and generated randomly will be available during the mint.</p>
                     <p>The various attributes will be distributed randomly with more or less rarity.</p>
                     <p>Some attributes using the colors of the Reunion Island flag will be extremely rare.</p>
-                    <p>They will be accompanied by 10 RIA Boys representing famous characters.</p>
+                    <p>They will be accompanied by 10 RIA Geck representing famous characters.</p>
                     <p>Possessing one of its specific attributes or one of the known characters will bring even more benefits to the holders.</p>
                     <p>Lucky owners will be able to access unique artist #NFTs, private sales, IRL meetings and more.</p>
        </Section>
@@ -146,7 +146,7 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1>Mint</h1>
-                        <p>9740 RIA Boys come alive and will be added to Rarity Tools.</p>
+                        <p>9740 RIA Geck come alive and will be added to Rarity Tools.</p>
                     </div>
 
                 </div>
@@ -161,7 +161,7 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Giweavays Holder</h1>
-                        <p> 5 random RIA Boys holders will receive 1 more NFT as a gift.</p>
+                        <p> 5 random RIA Geck holders will receive 1 more NFT as a gift.</p>
                     </div>
 
                 </div>
