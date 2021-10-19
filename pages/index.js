@@ -109,7 +109,6 @@ export default function Home() {
                     <p>
                     <Image
                         src="images/earn.png"
-                        alt="Own To Earn"
                         width="500px"
                         height="300px"
                     />
