@@ -1,13 +1,11 @@
 import Layout from "components/Layout";
 import Section from "components/Section";
-import Mint from "components/Mint";
 import Banner from "components/Banner";
 import Container from "components/Container";
 import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
 import useWindowSize from "../src/hooks/useWindowSize";
 import { Twitter } from "components/Icons";
-import Timelines from "components/Timelines";
 
 export default function Home() {
   const size = useWindowSize();
@@ -53,7 +51,7 @@ export default function Home() {
           >
             <div className="gallery-img">
               <Image
-                src="/images/Slider1.jpg"
+                src="/images/Slider1.png"
                 alt="RIA Superman"
                 height={300}
                 width={300}
@@ -62,7 +60,7 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/Slider2.jpg"
+                src="/images/Slider2.png"
                 alt="RIA Batman"
                 height={300}
                 width={300}
@@ -71,7 +69,7 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/Slider3.jpg"
+                src="/images/Slider3.png"
                 alt="RIA Hulk"
                 height={300}
                 width={300}
@@ -80,17 +78,8 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/Slider4.jpg"
+                src="/images/Slider4.png"
                 alt="RIA Jack Sparrow"
-                height={300}
-                width={300}
-                layout="responsive"
-              />
-            </div>
-            <div className="gallery-img">
-              <Image
-                src="/images/Slider5.jpg"
-                alt="RIA Deadpool"
                 height={300}
                 width={300}
                 layout="responsive"
@@ -106,6 +95,7 @@ export default function Home() {
                     <p>Owning a #RIA Geck allows you to regularly get benefits when we launch future artist #NFTs, RIAD Token, RIAD Marketplace, IDOs and more.</p>
                     <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
                     <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Geck is the first stone.</p>
+                    <p>We will develop a marketplace, a token dips and une virtual gallery. All holders #NFT with Reunion Island's colors will be abble to win some giveawoys, airdrops.</p>
                     <div>
                         <Image
                 src="/images/Earn.png"
