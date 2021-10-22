@@ -96,6 +96,7 @@ export default function Home() {
                     <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
                     <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Geck is the first stone.</p>
                     <p>We will develop a marketplace, a token dips and une virtual gallery. All holders #NFT with Reunion Island's colors will be abble to win some giveawoys, airdrops.</p>
+                    <p>The community is the most important in this project. For that, all holders will have the right to vote on decisions concerning the progress of the project.</p>
                     <div>
                         <Image
                 src="/images/Earn.png"
