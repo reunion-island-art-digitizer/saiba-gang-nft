@@ -156,6 +156,19 @@ p {
   }
 }
 
+.team-member-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: ease 0.3s;
+
+    &:hover {
+        .twitterLink {
+            background: #13153f;
+        }
+    }
+}
+
 .twitterLink {
     color: var(--yellow);
     font-size: 1.25rem;
@@ -375,4 +388,3 @@ p {
     transition: filter 0.5s ease;
     filter: grayscale(100%);
 }
-

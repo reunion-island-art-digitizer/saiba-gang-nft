@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
 import useWindowSize from "../src/hooks/useWindowSize";
 import { Twitter } from "components/Icons";
+import FAQ from "components/FAQ";
 
 export default function Home() {
   const size = useWindowSize();
@@ -216,11 +217,17 @@ export default function Home() {
 
                 </div>
             </Section>
+       <Container>                
+                <Section>
+                    <h2>Frequency Ask Question</h2>
+                    <FAQ />
+                </Section>               
+                </Container>
        <Container>
         <Section id="team">
           <h2>The Team</h2>
           <div className="grid">
-            <div>
+            <div className="team-member-card">
               <Image
                 src="/images/TEAM1.png"
                 alt="RIA Team"
@@ -239,7 +246,7 @@ export default function Home() {
                 Founder / Visual Director / Community Manager
               </a>
             </div>
-            <div>
+            <div className="team-member-card">
               <Image
                 src="/images/TEAM2.png"
                 alt="RIA Team"
@@ -258,7 +265,7 @@ export default function Home() {
                 Founder / Visual Artist / Community Manager
               </a>
             </div>
-            <div>
+            <div className="team-member-card">
               <Image
                 src="/images/TEAM2.png"
                 alt="RIA Team"
@@ -272,7 +279,7 @@ export default function Home() {
                 className="twitterLink"
               >
                 <Twitter />
-                SOON
+                COMING SOON
                 <br />
                 Encodeur
               </a>
