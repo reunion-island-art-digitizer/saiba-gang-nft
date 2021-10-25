@@ -6,7 +6,7 @@ import BannerImage from "../../public/images/HeaderImage.jpg";
 import LogoImage from "../../public/images/rapslogowhite.png";
 
 export default function Banner({ size }) {
-  if (size?.width < 720) {
+  if (size?.width < 500) {
     return (
       <div className={styles["mobile-banner"]}>
         <Image
