@@ -216,6 +216,7 @@ export default function Home() {
 
                 </div>
             </Section>
+       <Container>
         <Section id="team">
           <h2>The Team</h2>
           <div className="grid">
