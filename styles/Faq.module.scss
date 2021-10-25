@@ -1,0 +1,22 @@
+@import "./mixins";
+
+.faq {
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        p {
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+        }
+
+        button {
+            font-size: 1.5rem;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+
+            @include respond-below(sm) {
+                font-size: 1.25rem;
+                padding: 0.5rem;
+            }
+        }
+    }
+}

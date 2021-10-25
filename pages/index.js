@@ -3,7 +3,7 @@ import Section from "components/Section";
 import Banner from "components/Banner";
 import Container from "components/Container";
 import Image from "next/image";
-import "components/Accordion";
+import FAQ from "components/FAQ";
 import { Parallax } from "react-scroll-parallax";
 import useWindowSize from "../src/hooks/useWindowSize";
 import { Twitter } from "components/Icons";
@@ -216,36 +216,12 @@ export default function Home() {
                     </div>
 
                 </div>
-            </Section>
-            <Container>
-                <Section id="faq">
-                    <h2>Fraquently Asked Question</h2>
-                </Section>
-            </Container>
-            <Container>
-            <button class="accordion">When does RIA Boys launch?</button>
-            <div class="panel">
-                <p>27th Oct Saturday 9:00pm UTC</p>
-            </div>
-            <button class="accordion">How can I buy and how many can I mint?</button>
-            <div class="panel">
-                <p>On launch day, there will be a mint button that will appear to replace the ‘Coming Soon’ button. Then, you simply click mint, connect your phantom wallet (please use a desktop / laptop when doing so), and then you can go ahead.
-                    There is a limit of 10 RIA Boys you can mint in any one transaction.</p>
-            </div>
-            <button class="accordion">Will there be instant reveal?</button>
-            <div class="panel">
-                <p>Reveal will be instant.</p>
-            </div>
-            <button class="accordion">What is the association that I keep hearing about?</button>
-            <div class="panel">
-                <p>The future artists' association will open its doors on Reunion Island in order to promote the different art forms of the island to the whole world.</p>
-            </div>
-            <button class="accordion">Will we be able to resell the Ria Boys on secondary markets?</button>
-            <div class="panel">
-                <p>The secondary markets can be used as well as our future market dedicated to artists from Reunion Island as well as to RIA Boys holders.</p>
-            </div>
-            </Container>
-      <Container>
+            </Section> 
+        <Section id="faq">
+          <h2>FAQs</h2>
+          <FAQ />
+        </Section>
+       <Container>
         <Section id="team">
           <h2>The Team</h2>
           <div className="grid">
