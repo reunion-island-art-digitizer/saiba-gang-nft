@@ -3,6 +3,7 @@ import Section from "components/Section";
 import Banner from "components/Banner";
 import Container from "components/Container";
 import Image from "next/image";
+import Accordion from "components/Accordion";
 import { Parallax } from "react-scroll-parallax";
 import useWindowSize from "../src/hooks/useWindowSize";
 import { Twitter } from "components/Icons";
