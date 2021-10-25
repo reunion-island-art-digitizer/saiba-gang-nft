@@ -1,7 +1,6 @@
 var acc = document.getElementsByClassName("accordion");
 var i;
 
-export default function Accordion(className, children, icon ) {
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     /* Toggle between adding and removing the "active" class,
