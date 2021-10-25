@@ -3,7 +3,6 @@ import Section from "components/Section";
 import Banner from "components/Banner";
 import Container from "components/Container";
 import Image from "next/image";
-import FAQ from "components/FAQ";
 import { Parallax } from "react-scroll-parallax";
 import useWindowSize from "../src/hooks/useWindowSize";
 import { Twitter } from "components/Icons";
@@ -217,13 +216,6 @@ export default function Home() {
 
                 </div>
             </Section>
-            <Container>
-        <Section id="faq">
-          <h2>FAQs</h2>
-          <FAQ />
-        </Section>
-                </Container>
-       <Container>
         <Section id="team">
           <h2>The Team</h2>
           <div className="grid">
