@@ -216,53 +216,34 @@ export default function Home() {
 
                 </div>
             </Section>
-            <Section>
-        <div class="section section-faq" id="faq">
-            <div class="container">
-                <div class="section-content">
-                    <h3> Frequently Asked Questions</h3>
-                </div>
-                <div class="accordion">
-                    <div class="accordion-item">
-                        <summary class="accordion-item__header">
-                            When does RIA Boys launch?
-
-                        </summary>
-                        <p class="accordion-item__content"> 23th Oct Saturday 9:00pm UTC</p>
-                    </div>
-                    <div class="accordion-item">
-                        <summary class="accordion-item__header"> How can I buy and how many can I mint?</summary>
-                        <p class="accordion-item__content">
-                            On launch day, there will be a mint button that will appear to replace the ‘Coming Soon’ button. Then, you simply click mint, connect your phantom wallet (please use a desktop / laptop when doing so), and then you can go ahead.
-                            There is a limit of 10 RIA Boys you can mint in any one transaction.
-                        </p>
-                    </div>
-                    <div class="accordion-item">
-                        <summary class="accordion-item__header">
-                            Will there be instant reveal?
-                        </summary>
-                        <p class="accordion-item__content"> Reveal will start happening after 500 are minted. Than reveal will be instant.</p>
-                    </div>
-                    <div class="accordion-item">
-                        <summary class="accordion-item__header">
-                            What is the association that I keep hearing about?
-
-                        </summary>
-                        <p class="accordion-item__content">
-                            The future artists' association will open its doors on Reunion Island in order to promote the different art forms of the island to the whole world.
-                        </p>
-                    </div>
-                    <div class="accordion-item">
-                        <summary class="accordion-item__header">
-                            Will we be able to resell the Ria Boys on secondary markets?
-
-                        </summary>
-                        <p class="accordion-item__content"> The secondary markets can be used as well as our future market dedicated to artists from Reunion Island as well as to RIA Boys holders.
-                    </div>
-                </div>
+            <Container>
+                <Section id="faq">
+                    <h2>Fraquently Asked Question</h2>
+                </Section>
+            </Container>
+            <Container>
+            <button class="accordion">When does RIA Boys launch?</button>
+            <div class="panel">
+                <p>27th Oct Saturday 9:00pm UTC</p>
             </div>
-        </div>
-            </Section>
+            <button class="accordion">How can I buy and how many can I mint?</button>
+            <div class="panel">
+                <p>On launch day, there will be a mint button that will appear to replace the ‘Coming Soon’ button. Then, you simply click mint, connect your phantom wallet (please use a desktop / laptop when doing so), and then you can go ahead.
+                    There is a limit of 10 RIA Boys you can mint in any one transaction.</p>
+            </div>
+            <button class="accordion">Will there be instant reveal?</button>
+            <div class="panel">
+                <p>Reveal will be instant.</p>
+            </div>
+            <button class="accordion">What is the association that I keep hearing about?</button>
+            <div class="panel">
+                <p>The future artists' association will open its doors on Reunion Island in order to promote the different art forms of the island to the whole world.</p>
+            </div>
+            <button class="accordion">Will we be able to resell the Ria Boys on secondary markets?</button>
+            <div class="panel">
+                <p>The secondary markets can be used as well as our future market dedicated to artists from Reunion Island as well as to RIA Boys holders.</p>
+            </div>
+            </Container>
       <Container>
         <Section id="team">
           <h2>The Team</h2>
