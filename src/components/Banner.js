@@ -12,8 +12,8 @@ export default function Banner({ size }) {
         <Image
           src={BannerImage}
           alt="RIA Boys"
-          width={720}
-          height={405}
+          width={650}
+          height={300}
           placeholder="blur"
           layout="responsive"
           priority
