@@ -376,9 +376,74 @@ p {
     filter: grayscale(100%);
 }
 
-.accordion-item {
-    background-color: #101010;
-    color: #988036;
-    border: 1px solid #988036;
+.accordion {
+    display: grid;
+    gap: 20px;
+    margin: 15px auto 0;
+    max-width: 780px
 }
+
+.accordion-item__header {
+    align-items: center;
+    border: 1px solid #988036;
+    border-radius: 3px;
+    color: #988036;
+    cursor: pointer;
+    display: flex;
+    font-size: 17px;
+    line-height: 48px;
+    min-height: 60px;
+    padding: 0 70px 0 30px;
+    position: relative;
+    transition: all .2s ease-in-out
+}
+
+.accordion-item__header:after {
+    background-image: url(/assets/images/down-chevron-30924a8f23417b20c75531f1f540bb5d.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    content: "";
+    height: 30px;
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px
+}
+
+@media screen and (max-width:900px) {
+    .accordion-item__header {
+        font-size: 12px;
+        line-height: 15px;
+        min-height: 40px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-top: 10px
+    }
+}
+
+.accordion-item__content {
+    color: #c9c9c9;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 30px
+}
+
+@media screen and (max-width:900px) {
+    .accordion-item__content {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 15px
+    }
+}
+
+.accordion-item[open] .accordion-item__header {
+    border-color: #ead696;
+    color: #ead696
+}
+
+.accordion-item[open] .accordion-item__header:after {
+    background-image: url(/assets/images/up-chevron-82db3d223e9bd7c03021604f81f1b4dc.png)
+}
+
 

@@ -216,7 +216,6 @@ export default function Home() {
 
                 </div>
             </Section>
-            <Container>
             <Section>
         <div class="section section-faq" id="faq">
             <div class="container">
@@ -264,7 +263,6 @@ export default function Home() {
             </div>
         </div>
             </Section>
-                    </Container>
       <Container>
         <Section id="team">
           <h2>The Team</h2>
