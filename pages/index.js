@@ -223,7 +223,7 @@ export default function Home() {
           <div className="grid">
             <div>
               <Image
-                src="/images/TEAM2.png"
+                src="/images/TEAM1.png"
                 alt="RIA Team"
                 height={500}
                 width={500}
