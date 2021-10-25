@@ -250,13 +250,32 @@ export default function Home() {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://twitter.com/"
+                href="https://twitter.com/974_Or_et_Li"
                 className="twitterLink"
               >
                 <Twitter />
                 Lili974
                 <br />
                 Founder / Visual Artist / Community Manager
+              </a>
+            </div>
+            <div>
+              <Image
+                src="/images/TEAM2.png"
+                alt="RIA Team"
+                height={500}
+                width={500}
+              />
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://twitter.com/"
+                className="twitterLink"
+              >
+                <Twitter />
+                SOON
+                <br />
+                Encodeur
               </a>
             </div>
           </div>

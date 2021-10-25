@@ -94,7 +94,7 @@ export default function Header({ size }) {
               <Twitter className={styles["header-link-social"]} />
             </a>
             <a
-              href="https://discord.gg/"
+              href="https://discord.gg/8XVQGVqfbb"
               target="_blank"
               rel="noopener noreferrer"
             >
