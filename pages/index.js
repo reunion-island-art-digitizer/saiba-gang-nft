@@ -216,11 +216,13 @@ export default function Home() {
                     </div>
 
                 </div>
-            </Section> 
+            </Section>
+            <Container>
         <Section id="faq">
           <h2>FAQs</h2>
           <FAQ />
         </Section>
+                </Container>
        <Container>
         <Section id="team">
           <h2>The Team</h2>
