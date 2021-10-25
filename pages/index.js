@@ -216,6 +216,7 @@ export default function Home() {
 
                 </div>
             </Section>
+            <Container>
             <Section>
         <div class="section section-faq" id="faq">
             <div class="container">
@@ -223,27 +224,27 @@ export default function Home() {
                     <h3> Frequently Asked Questions</h3>
                 </div>
                 <div class="accordion">
-                    <details class="accordion-item">
+                    <div class="accordion-item">
                         <summary class="accordion-item__header">
                             When does RIA Boys launch?
 
                         </summary>
                         <p class="accordion-item__content"> 23th Oct Saturday 9:00pm UTC</p>
-                    </details>
-                    <details class="accordion-item">
+                    </div>
+                    <div class="accordion-item">
                         <summary class="accordion-item__header"> How can I buy and how many can I mint?</summary>
                         <p class="accordion-item__content">
                             On launch day, there will be a mint button that will appear to replace the ‘Coming Soon’ button. Then, you simply click mint, connect your phantom wallet (please use a desktop / laptop when doing so), and then you can go ahead.
                             There is a limit of 10 RIA Boys you can mint in any one transaction.
                         </p>
-                    </details>
-                    <details class="accordion-item">
+                    </div>
+                    <div class="accordion-item">
                         <summary class="accordion-item__header">
                             Will there be instant reveal?
                         </summary>
                         <p class="accordion-item__content"> Reveal will start happening after 500 are minted. Than reveal will be instant.</p>
-                    </details>
-                    <details class="accordion-item">
+                    </div>
+                    <div class="accordion-item">
                         <summary class="accordion-item__header">
                             What is the association that I keep hearing about?
 
@@ -251,18 +252,19 @@ export default function Home() {
                         <p class="accordion-item__content">
                             The future artists' association will open its doors on Reunion Island in order to promote the different art forms of the island to the whole world.
                         </p>
-                    </details>
-                    <details class="accordion-item">
+                    </div>
+                    <div class="accordion-item">
                         <summary class="accordion-item__header">
                             Will we be able to resell the Ria Boys on secondary markets?
 
                         </summary>
                         <p class="accordion-item__content"> The secondary markets can be used as well as our future market dedicated to artists from Reunion Island as well as to RIA Boys holders.
-                    </details>
+                    </div>
                 </div>
             </div>
         </div>
             </Section>
+                    </Container>
       <Container>
         <Section id="team">
           <h2>The Team</h2>
