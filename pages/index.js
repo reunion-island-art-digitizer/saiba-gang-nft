@@ -218,7 +218,7 @@ export default function Home() {
                 </div>
             </Section>
        <Container>                
-                <Section>
+                <Section id="faq">
                     <h2>Frequency Ask Question</h2>
                     <Faq />
                 </Section>               
