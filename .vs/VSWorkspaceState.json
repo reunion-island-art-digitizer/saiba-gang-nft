@@ -1,12 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\node_modules\\@next",
     "\\pages",
     "\\public",
-    "\\public\\images",
     "\\src",
     "\\src\\components",
     "\\styles"
   ],
+  "SelectedNode": "\\src\\components\\RequestAirdrop.js",
   "PreviewInSolutionExplorer": false
 }

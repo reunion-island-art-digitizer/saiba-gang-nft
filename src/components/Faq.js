@@ -1,40 +1,79 @@
-import Container from "./Container";
-import styles from "styles/FAQ.module.scss";
-const items = document.querySelectorAll('.accordion button');
+import React from 'react';
 
-function FAQ() {
-    const itemToggle = this.getAttribute('aria-expanded');
-
-    for (i = 0; i < items.length; i++) {
-        items[i].setAttribute('aria-expanded', 'false');
-    }
-
-    if (itemToggle == 'false') {
-        this.setAttribute('aria-expanded', 'true');
-    }
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemHeading,
+    AccordionItemButton,
+    AccordionItemPanel,
+} from "react-accessible-accordion";
 
 
-    items.forEach((item) => item.addEventListener('click', FAQ));
-
+export default function FAQ() {
     return (
-        <Container>
-            <div className={styles["accordion"]}>
-                <div className={styles["accordion-item"]}>
-                    <button id={styles["accordion-button-1"]} aria-expanded="false">
-                        <span className={styles["accordion-title"]}>Why is the moon sometimes out during the day?</span>
-                        <span className={styles["icon"]} aria-hidden="true"></span>
-                    </button>
-                    <div className={styles["accordion-content"]}>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
-                            Ut tortor pretium viverra suspendisse potenti.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </Container>
+        <Accordion>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        When does RIA Geck launch?
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                        27th Nov Saturday 9:00pm UTC
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        How can I buy and how many can I mint?
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                        On launch day, the link will be transmitted on discord and twitter.
+                        Then, you simply click mint, connect your phantom wallet (please use a desktop / laptop when doing so), and then you can go ahead.
+                        There is a limit of 10 RIA Geck you can mint in any one transaction.
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Will there be instant reveal?
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                    Reveal will be instant.
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+            <AccordionItemHeading>
+                <AccordionItemButton>
+                    What is the association that I keep hearing about?
+                </AccordionItemButton>
+            </AccordionItemHeading>
+            <AccordionItemPanel>
+                <p>
+                    The future artists' association will open its doors on Reunion Island in order to promote the different art forms of the island to the whole world.
+                </p>
+            </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton>
+                        Will we be able to resell the Ria Geck on secondary markets?
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                        The secondary markets can be used as well as our future market dedicated to artists from Reunion Island as well as to RIA Boys holders.
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+        </Accordion>
     );
-};
-
-export default FAQ;
+}

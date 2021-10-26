@@ -6,10 +6,10 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: "Heibro", sans-serif;
+    font-family: "The Bambank Scripts", sans-serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
-    color: var(--white);
+    color: var(--primary-dark);
     background: linear-gradient(180deg, #ca0303 4.69%, #0082ff 33.85%, #fbd000 80%);
 }
 
@@ -387,4 +387,81 @@ p {
     background-position: center center;
     transition: filter 0.5s ease;
     filter: grayscale(100%);
+}
+
+/**
+* ----------------------------------------------
+* Demo styles
+* ----------------------------------------------
+**/
+.accordion {
+    border: 1px solid rgb(255, 106, 0);
+    border-radius: 6px;
+}
+
+.accordion__item + .accordion__item {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion__button {
+    background-color: #ff6a0024;
+    color: #fff;
+    font-size: 1.25rem;
+    max-width: 1200px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    @include respond-below(sm) {
+        font-size: 1rem;
+    }
+
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+.accordion__button:hover {
+    background-color: #ffd800;
+    color: #000000;
+}
+
+.accordion__button:before {
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+}
+
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+    transform: rotate(45deg);
+}
+
+.accordion__button:hidden {
+    display: none;
+}
+
+.accordion__panel {
+    padding: 20px;
+    animation: fadein 0.35s ease-in;
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
