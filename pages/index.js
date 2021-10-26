@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
 import useWindowSize from "../src/hooks/useWindowSize";
 import { Twitter } from "components/Icons";
-import FAQ from "components/FAQ";
+import Faq from "components/Faq";
 
 export default function Home() {
   const size = useWindowSize();

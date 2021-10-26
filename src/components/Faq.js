@@ -9,7 +9,7 @@ import {
 } from "react-accessible-accordion";
 
 
-export default function FAQ() {
+export default function Faq() {
     return (
         <Accordion>
             <AccordionItem>
