@@ -13,8 +13,11 @@
     },
     "dependencies": {
         "@accede-web/accordion": "^1.1.0",
+        "@babel/core": "^7.15.8",
+        "@emotion/babel-plugin": "^11.3.0",
         "@solana/spl-token": "^0.1.8",
         "@typescript-eslint/eslint-plugin": "^5.0.0",
+        "@typescript-eslint/parser": "^5.2.0",
         "accordion": "^3.0.2",
         "classnames": "^2.2.6",
         "collapse": "^1.0.1",

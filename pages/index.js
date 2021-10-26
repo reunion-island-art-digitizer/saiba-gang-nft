@@ -220,7 +220,7 @@ export default function Home() {
        <Container>                
                 <Section>
                     <h2>Frequency Ask Question</h2>
-                    <FAQ />
+                    <Faq />
                 </Section>               
                 </Container>
        <Container>
