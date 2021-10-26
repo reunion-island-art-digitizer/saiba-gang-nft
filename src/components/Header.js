@@ -239,6 +239,18 @@ export default function Header({ size }) {
             <li className={styles["header-link"]}>
               <ScrollLink
                 activeClass={styles["header-link--active"]}
+                to="faq"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={350}
+              >
+                FAQ
+              </ScrollLink>
+            </li>
+            <li className={styles["header-link"]}>
+              <ScrollLink
+                activeClass={styles["header-link--active"]}
                 to="team"
                 spy={true}
                 smooth={true}
