@@ -8,7 +8,7 @@ const siteConfig = {
     name: "RIA Boys",
     github: "https://github.com/reunion-island-digitizer",
     twitter: "https://twitter.com/ReunionArt",
-        discord: "https://discord.com/invite/8XVQGVqfbb",
+    discord: "https://discord.com/invite/8XVQGVqfbb",
     email: "reunion.island.art.digitizer@gmail.com",
   },
   repo: {
