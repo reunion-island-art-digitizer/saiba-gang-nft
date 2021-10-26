@@ -1,7 +1,7 @@
 @import "mixins";
 
 .section {
-  padding: 4rem 0;
+  padding: 1rem 0;
   @include respond-below(sm) {
     padding: 1rem 0;
   }
