@@ -6,8 +6,8 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: "The Bambank Scripts", sans-serif;
-    font-weight: 400;
+    font-family: "Heibro", sans-serif;
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
     color: var(--primary-dark);
     background: linear-gradient(180deg, #ca0303 4.69%, #0082ff 33.85%, #fbd000 80%);
@@ -113,7 +113,7 @@ p {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
 }
 
 .overflow-scroll {

@@ -227,7 +227,7 @@ export default function Home() {
         <Section id="team">
           <h2>The Team</h2>
           <div className="grid">
-            <div className="team-member-card">
+            <div >
               <Image
                 src="/images/TEAM1.png"
                 alt="RIA Team"
@@ -246,7 +246,7 @@ export default function Home() {
                 Founder / Visual Director / Community Manager
               </a>
             </div>
-            <div className="team-member-card">
+            <div >
               <Image
                 src="/images/TEAM2.png"
                 alt="RIA Team"
@@ -265,7 +265,7 @@ export default function Home() {
                 Founder / Visual Artist / Community Manager
               </a>
             </div>
-            <div className="team-member-card">
+            <div >
               <Image
                 src="/images/TEAM2.png"
                 alt="RIA Team"
