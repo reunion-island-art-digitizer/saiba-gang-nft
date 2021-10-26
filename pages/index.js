@@ -104,8 +104,6 @@ export default function Home() {
                 alt="Own To Earn"
                 height={600}
                 width={800}
-                style="text-align:center"
-                margin-left="20px"
                         />
                     </div>
        </Section>
