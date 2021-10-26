@@ -105,7 +105,7 @@ export default function Home() {
                 height={600}
                 width={800}
                 style="text-align:center"
-                margin="auto"
+                margin-left="20px"
                         />
                     </div>
        </Section>
