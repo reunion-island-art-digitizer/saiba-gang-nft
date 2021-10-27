@@ -12,7 +12,7 @@ const App = ({ Component, pageProps }) => {
   const { seo } = siteConfig;
   return (
     <>
-      <Head>
+          <Head>
         <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta

@@ -96,7 +96,7 @@ export default function Home() {
                     <p>Owning a #RIA Geck allows you to regularly get benefits when we launch future artist #NFTs, RIAD Token, RIAD Marketplace, IDOs and more.</p>
                     <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
                     <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Geck is the first stone.</p>
-                    <p>We will develop a marketplace, a token dips and une virtual gallery. All holders #NFT with Reunion Island's colors will be abble to win some giveawoys, airdrops.</p>
+                    <p>We will develop a marketplace, a token tips and une virtual gallery. All holders #NFT with Reunion Island's colors will be abble to win some giveawoys, airdrops.</p>
                     <p>The community is the most important in this project. For that, all holders will have the right to vote on decisions concerning the progress of the project.</p>
                     <div>
                         <Image
@@ -153,7 +153,7 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Giweavays Holder</h1>
-                        <p> 5 random RIA Geck holders will receive 1 more NFT as a gift.</p>
+                        <p> 10 random RIA Geck holders will receive 1 more NFT as a gift.</p>
                     </div>
 
                 </div>
@@ -182,7 +182,7 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Giveaway</h1>
-                        <p>3 giveaways for twitter, discord, and holders in partnership with our artists.</p>
+                        <p>6 giveaways for twitter, discord, and holders in partnership with our artists.</p>
                     </div>
 
                 </div>
@@ -196,9 +196,9 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Marketplace</h1>
-                        <p>Creation of marketplace for our Reunion Island Artists.
-                            Creation of RIAD Coin for tips artist.
-                            Birth of an other RIA #NFT project.</p>
+                        <p>Delivery of marketplace for our Reunion Island Artists.
+                            Codding of RIAD Coin for tips artist.
+                            Birth of an other RIAD #NFT project.</p>
                     </div>
 
                 </div>
@@ -212,7 +212,8 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Life of project</h1>
-                        <p>Launch of the global RIAD project: Reunion Island Art Digitizer.</p>
+                        <p>Launch of the global RIAD project: Reunion Island Art Digitizer.
+                           Creation of a reel exhibition room.</p>
                     </div>
 
                 </div>
