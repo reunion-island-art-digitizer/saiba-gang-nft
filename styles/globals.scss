@@ -83,6 +83,18 @@ p {
     height: 300px;
   }
 }
+.background-section2 {
+    background-image: url("/images/Footer.png");
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    width: 100%;
+    margin-top: 4rem;
+
+    @include respond-below(md) {
+        height: 300px;
+    }
+}
 .math-wallet-icon {
   background: #000000;
 }

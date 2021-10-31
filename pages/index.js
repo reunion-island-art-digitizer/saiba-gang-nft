@@ -288,7 +288,7 @@ export default function Home() {
           </div>
         </Section>
       </Container>
-      <div className="background-section"></div>
+      <div className="background-section2"></div>
     </Layout>
   );
 }
