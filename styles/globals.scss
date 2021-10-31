@@ -90,7 +90,6 @@ p {
     height: 800px;
     width: 100%;
     margin-top: 4rem;
-
     @include respond-below(md) {
         height: 300px;
     }
