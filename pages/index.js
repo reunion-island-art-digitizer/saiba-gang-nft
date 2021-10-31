@@ -98,6 +98,7 @@ export default function Home() {
                     <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Geck is the first stone.</p>
                     <p>We will develop a marketplace, a token tips and une virtual gallery. All holders #NFT with Reunion Island's colors will be abble to win some giveawoys, airdrops.</p>
                     <p>The community is the most important in this project. For that, all holders will have the right to vote on decisions concerning the progress of the project.</p>
+                    <p>All 974 colors holders will have e VIP place in our futur metaverse island.</p>
                     <div>
                         <Image
                 src="/images/Earn.png"
@@ -213,7 +214,8 @@ export default function Home() {
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Life of project</h1>
                         <p>Launch of the global RIAD project: Reunion Island Art Digitizer.
-                           Creation of a reel exhibition room.</p>
+                            By and creation of a reel exhibition room.
+                            Buid RIAD metaverse to organize meetings between artists and their fans.</p>
                     </div>
 
                 </div>
@@ -232,8 +234,8 @@ export default function Home() {
               <Image
                 src="/images/TEAM1.png"
                 alt="RIA Team"
-                height={500}
-                width={600}
+                height={300}
+                width={400}
                 layout="responsive"
               />
               <a
@@ -252,8 +254,8 @@ export default function Home() {
               <Image
                 src="/images/TEAM2.png"
                 alt="RIA Team"
-                height={500}
-                width={600}
+                height={300}
+                width={400}
                 layout="responsive"
               />
               <a
@@ -272,8 +274,8 @@ export default function Home() {
               <Image
                 src="/images/TEAM3.png"
                 alt="RIA Team"
-                height={500}
-                width={600}
+                height={300}
+                width={400}
                 layout="responsive"
               />
               <a
