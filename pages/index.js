@@ -93,7 +93,7 @@ export default function Home() {
     <Container >
        <Section id="own">
          <h2>Own to Earn</h2>
-                    <p>Owning a #RIA Geck allows you to regularly get benefits when we launch future artist #NFTs, RIAD Token, RIAD Marketplace, IDOs and more.</p>
+                    <p>Owning a RIA Geck allows you to regularly get benefits when we launch future artist #NFTs, RIAD Token, RIAD Marketplace, IDOs and more.</p>
                     <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
                     <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Geck is the first stone.</p>
                     <p>We will develop a marketplace, a token tips and a virtual gallery. All holders #NFT with Reunion Island's colors will be abble to win some giveaways, airdrops.</p>

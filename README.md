@@ -1,7 +1,7 @@
-<img src="public/images/saiba-gang-og.png" alt="Saiba Gang" width="600px">
+<img src="public/images/logo.png" alt="Logo" width="600px">
 
 ## What is the Saiba Gang?
 
-The Saiba Gang are 8,888 unique generative NFTs with attributes and a rarity system. Join the Saiba Gang by owning a character NFT on the Solana Blockchain.
+9 730 RIA Geck drawn by hand and generated randomly will be available during the mint on Solana.
 
-<img src="public/images/guy.jpg" alt="Saiba Gang Member" width="350px">
+<img src="public/images/logo.jpg" alt="Ria Geck width="350px">
