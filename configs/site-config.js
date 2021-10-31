@@ -36,7 +36,7 @@ const siteConfig = {
       site_name: "RIA Boys",
       images: [
         {
-              url: `https://reunion-island-art-digitizer.github.io/saiba-gang-nft/pubic/images/logo.png`,
+              url: `pubic/images/logo.png`,
           width: 1200,
           height: 630,
           alt: "The RIA Boys are 9 740 unique generative NFTs with attributes and a rarity system. Join the RIA Geck by owning a character NFT on the Solana Blockchain.",
