@@ -1,6 +1,6 @@
 import { getAbsoluteURL } from "utils/getAbsoluteURL";
 
-const baseUrl = "https://reunion-island-art-digitizer.github.io/saiba-gang-nft/";
+const baseUrl = "https://riageck.vercel.app/";
 const origin = getAbsoluteURL();
 
 const siteConfig = {
@@ -17,10 +17,10 @@ const siteConfig = {
     blobUrl: `${baseUrl}/blob/main`,
   },
   seo: {
-    title: "RIA Boys NFT",
-    titleTemplate: "%s - RIA Boys",
+    title: "RIA Geck NFT",
+    titleTemplate: "%s - RIA Geck",
     description: "Reunion Island Art Digitizer",
-      siteUrl: "https://reunion-island-art-digitizer.github.io/saiba-gang-nft/",
+      siteUrl: "https://riageck.vercel.app/",
     twitter: {
       handle: "@ReunionArt",
       site: "@ReunionArt",
@@ -29,17 +29,17 @@ const siteConfig = {
     openGraph: {
       type: "website",
       locale: "en_US",
-        url: "https://reunion-island-art-digitizer.github.io/saiba-gang-nft/",
-      title: "RIA Boys",
+        url: "https://riageck.vercel.app/",
+      title: "RIA Geck",
       description:
-        "The RIA Geck are 9,740 unique generative NFTs with attributes and a rarity system. Join the RIA Boys by owning a character NFT on the Solana Blockchain.",
+        "The RIA Geck are 9,740 unique generative NFTs with attributes and a rarity system. Join the RIA Geck by owning a character NFT on the Solana Blockchain.",
       site_name: "RIA Boys",
       images: [
         {
               url: `https://reunion-island-art-digitizer.github.io/saiba-gang-nft/pubic/images/logo.png`,
           width: 1200,
           height: 630,
-          alt: "The RIA Boys are 9 740 unique generative NFTs with attributes and a rarity system. Join the RIA Boys by owning a character NFT on the Solana Blockchain.",
+          alt: "The RIA Boys are 9 740 unique generative NFTs with attributes and a rarity system. Join the RIA Geck by owning a character NFT on the Solana Blockchain.",
         },
       ],
     },
