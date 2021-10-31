@@ -55,7 +55,7 @@ export default function Home() {
                 src="/images/Slider1.png"
                 alt="RIA Superman"
                 height={300}
-                width={300}
+                width={400}
                 layout="responsive"
               />
             </div>
@@ -64,7 +64,7 @@ export default function Home() {
                 src="/images/Slider2.png"
                 alt="RIA Batman"
                 height={300}
-                width={300}
+                width={400}
                 layout="responsive"
               />
             </div>
@@ -73,7 +73,7 @@ export default function Home() {
                 src="/images/Slider3.png"
                 alt="RIA Hulk"
                 height={300}
-                width={300}
+                width={400}
                 layout="responsive"
               />
             </div>
@@ -82,7 +82,7 @@ export default function Home() {
                 src="/images/Slider4.png"
                 alt="RIA Jack Sparrow"
                 height={300}
-                width={300}
+                width={400}
                 layout="responsive"
               />
             </div>
@@ -233,7 +233,8 @@ export default function Home() {
                 src="/images/TEAM1.png"
                 alt="RIA Team"
                 height={500}
-                width={500}
+                width={600}
+                layout="responsive"
               />
               <a
                 rel="noreferrer"
@@ -252,7 +253,8 @@ export default function Home() {
                 src="/images/TEAM2.png"
                 alt="RIA Team"
                 height={500}
-                width={500}
+                width={600}
+                layout="responsive"
               />
               <a
                 rel="noreferrer"
@@ -268,10 +270,11 @@ export default function Home() {
             </div>
             <div >
               <Image
-                src="/images/TEAM2.png"
+                src="/images/TEAM3.png"
                 alt="RIA Team"
                 height={500}
-                width={500}
+                width={600}
+                layout="responsive"
               />
               <a
                 rel="noreferrer"
