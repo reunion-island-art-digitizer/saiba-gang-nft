@@ -96,9 +96,9 @@ export default function Home() {
                     <p>Owning a #RIA Geck allows you to regularly get benefits when we launch future artist #NFTs, RIAD Token, RIAD Marketplace, IDOs and more.</p>
                     <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
                     <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Geck is the first stone.</p>
-                    <p>We will develop a marketplace, a token tips and une virtual gallery. All holders #NFT with Reunion Island's colors will be abble to win some giveawoys, airdrops.</p>
+                    <p>We will develop a marketplace, a token tips and a virtual gallery. All holders #NFT with Reunion Island's colors will be abble to win some giveaways, airdrops.</p>
                     <p>The community is the most important in this project. For that, all holders will have the right to vote on decisions concerning the progress of the project.</p>
-                    <p>All 974 colors holders will have e VIP place in our futur metaverse island.</p>
+                    <p>All 974 colors holders will have a VIP place in our futur metaverse island.</p>
                     <div>
                         <Image
                 src="/images/Earn.png"
@@ -213,7 +213,7 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Life of project</h1>
-                        <p>Launch of the global RIAD project: Reunion Island Art Digitizer.
+                        <p>Launch of the global RIAD project : Reunion Island Art Digitizer.
                             By and creation of a reel exhibition room.
                             Buid RIAD metaverse to organize meetings between artists and their fans.</p>
                     </div>

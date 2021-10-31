@@ -15,7 +15,7 @@ export default function Faq() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        When does RIA Geck launch?
+                        When does RIA Geck launch ?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -27,7 +27,7 @@ export default function Faq() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        How can I buy and how many can I mint?
+                        How can I buy and how many can I mint ?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -41,7 +41,7 @@ export default function Faq() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Will there be instant reveal?
+                        Will there be instant reveal ?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -53,7 +53,7 @@ export default function Faq() {
             <AccordionItem>
             <AccordionItemHeading>
                 <AccordionItemButton>
-                    What is the association that I keep hearing about?
+                    What is the association that I keep hearing about ?
                 </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
@@ -65,7 +65,7 @@ export default function Faq() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Will we be able to resell the Ria Geck on secondary markets?
+                        Will we be able to resell the Ria Geck on secondary markets ?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
