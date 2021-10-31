@@ -61,7 +61,7 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/Slider2.png"
+                src="/images/Slider3.png"
                 alt="RIA Batman"
                 height={300}
                 width={400}
@@ -70,7 +70,7 @@ export default function Home() {
             </div>
             <div className="gallery-img">
               <Image
-                src="/images/Slider3.png"
+                src="/images/Slider2.png"
                 alt="RIA Hulk"
                 height={300}
                 width={400}
