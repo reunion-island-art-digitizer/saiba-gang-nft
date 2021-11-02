@@ -20,7 +20,7 @@ export default function Faq() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                        27th Nov Saturday 9:00pm UTC
+                        27th Nov 9:00pm UTC
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
