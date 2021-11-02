@@ -41,7 +41,7 @@ export default function Home() {
           </p>
           <p>
             If you want to be part of this adventure with us and be respected,
-            make sure you are one of the 9 740 to be part of the RIA Geck.
+            make sure you are one of the 9 740 RIA Geck.
           </p>
                 </Container>
         <div className="overflow-scroll">
@@ -93,12 +93,12 @@ export default function Home() {
     <Container >
        <Section id="own">
          <h2>Own to Earn</h2>
-                    <p>Owning a RIA Geck allows you to regularly get benefits when we launch future artist #NFTs, RIAD Token, RIAD Marketplace, IDOs and more.</p>
+                    <p>Owning a RIA Geck allows you to regularly get benefits when we will launch future artist NFTs, RIAD Token, RIAD Marketplace, IDOs and more.</p>
                     <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
                     <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Geck is the first stone.</p>
-                    <p>We will develop a marketplace, a token tips and a virtual gallery. All holders #NFT with Reunion Island's colors will be abble to win some giveaways, airdrops.</p>
+                    <p>We will develop a marketplace, a token tips, a virtual gallery and a metaverse. All holders with Reunion Island's colors will be abble to win some giveaways, airdrops and more.</p>
                     <p>The community is the most important in this project. For that, all holders will have the right to vote on decisions concerning the progress of the project.</p>
-                    <p>All 974 colors holders will have a VIP place in our futur metaverse island.</p>
+                    <p>All holders with Reunion Island's flag colors will have a VIP place in our futur metaverse island.</p>
                     <div>
                         <Image
                 src="/images/Earn.png"
@@ -117,7 +117,7 @@ export default function Home() {
                     <p>The various attributes will be distributed randomly with more or less rarity.</p>
                     <p>Some attributes using the colors of the Reunion Island flag will be extremely rare.</p>
                     <p>They will be accompanied by 10 RIA Geck representing famous characters.</p>
-                    <p>Possessing one of its specific attributes or one of the known characters will bring even more benefits to the holders.</p>
+                    <p>Hold one of its specific attributes or one of the known characters will bring even more benefits to the holders.</p>
                     <p>Lucky owners will be able to access unique artist #NFTs, private sales, IRL meetings and more.</p>
        </Section>
     </Container>
@@ -139,7 +139,7 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1>Mint</h1>
-                        <p>9740 RIA Geck come alive and will be added to Rarity Tools.</p>
+                        <p>9740 RIA Geck will be born and added to Rarity Tools.</p>
                     </div>
 
                 </div>
@@ -214,8 +214,8 @@ export default function Home() {
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Life of project</h1>
                         <p>Launch of the global RIAD project : Reunion Island Art Digitizer.
-                            By and creation of a reel exhibition room.
-                            Buid RIAD metaverse to organize meetings between artists and their fans.</p>
+                            Purchase and creation of a reel exhibition room.
+                            Build RIAD metaverse to organize meetings between artists and their fans.</p>
                     </div>
 
                 </div>
