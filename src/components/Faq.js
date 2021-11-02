@@ -70,7 +70,7 @@ export default function Faq() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                        The secondary markets can be used as well as our future market dedicated to artists from Reunion Island as well as to RIA Geck holders.
+                        The secondary markets can be used as well as our future market dedicated to artists from Reunion Island and RIA Geck holders.
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
