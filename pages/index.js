@@ -139,7 +139,7 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1>Mint</h1>
-                        <p>9740 RIA Geck will be born and added to Rarity Tools.</p>
+                        <p>9740 RIA Geck will born and added to Rarity Tools.</p>
                     </div>
 
                 </div>
