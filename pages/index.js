@@ -285,9 +285,20 @@ export default function Home() {
                 className="twitterLink"
               >
                 <Twitter />
-                COMING SOON
+                Gouj974
                 <br />
                 Encodeur
+              </a>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://twitter.com/"
+                className="twitterLink"
+              >
+                <Twitter />
+                Gir974
+                <br />
+                Designer
               </a>
             </div>
           </div>
