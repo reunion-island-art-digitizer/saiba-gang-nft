@@ -154,7 +154,7 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Giweavays Holder</h1>
-                        <p> 10 random RIA Geck holders will receive 1 more NFT as a gift.</p>
+                        <p> 10 random RIA Geck holders will receive 1 more NFT.</p>
                     </div>
 
                 </div>
@@ -214,7 +214,7 @@ export default function Home() {
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Life of project</h1>
                         <p>Launch of the global RIAD project : Reunion Island Art Digitizer.
-                            Purchase and creation of a reel exhibition room.
+                            Purchase and creation of a real exhibition room.
                             Build RIAD metaverse to organize meetings between artists and their fans.</p>
                     </div>
 
