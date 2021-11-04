@@ -58,7 +58,7 @@ export default function Faq() {
             </AccordionItemHeading>
             <AccordionItemPanel>
                 <p>
-                    The future artists' association will open its doors on Reunion Island in order to promote the different art forms of the island to the whole world.
+                    The future artists association will open its doors on Reunion Island in order to promote the different art forms of the island to the whole world.
                 </p>
             </AccordionItemPanel>
             </AccordionItem>
