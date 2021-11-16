@@ -59,6 +59,8 @@ export default function Home() {
           <p>                        
                         - create a metaverse (encrypted virtual world) of meeting between artists and their fans as well as the NFT exhibition.
           </p>
+                </Container>
+        <Container>
             <div>
               <Image
                 src="/images/Ulule asso-01.png"
