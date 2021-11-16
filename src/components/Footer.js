@@ -1,5 +1,5 @@
 import styles from "styles/Footer.module.scss";
-import { Twitter, Discord } from "./Icons";
+import { Facebook, Instagram, Twitter, Discord } from "./Icons";
 
 export default function Footer() {
   return (
