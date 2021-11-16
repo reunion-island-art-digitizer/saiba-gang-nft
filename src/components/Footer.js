@@ -1,5 +1,5 @@
 import styles from "styles/Footer.module.scss";
-import { Facebook, Instagram, Twitter, Discord } from "./Icons";
+import { Financement, Facebook, Instagram, Twitter, Discord } from "./Icons";
 
 export default function Footer() {
   return (
@@ -8,6 +8,13 @@ export default function Footer() {
         COPYRIGHT RIAD {new Date().getFullYear()}.
       </p>
       <div className={styles["footer-flex"]}>
+          <a
+            href="https://www.okpal.com/riad-promotion-de-l-art-de-la-reunion"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Financement className={styles["header-link-social"]} />
+          </a>
         <a
           href="https://twitter.com/ReunionArt"
           target="_blank"

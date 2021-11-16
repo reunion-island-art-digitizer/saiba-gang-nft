@@ -1,5 +1,5 @@
 import styles from "styles/Header.module.scss";
-import { Instagram, Facebook, Twitter, Discord, } from "./Icons";
+import { Financement, Instagram, Facebook, Twitter, Discord, } from "./Icons";
 import Image from "next/image";
 // import Swal from "sweetalert2";
 // import withReactContent from "sweetalert2-react-content";
@@ -86,6 +86,13 @@ export default function Header({ size }) {
           <div className={styles["mobile-header-top"]}>
             <Logo onClick={() => scroll.scrollToTop()} />
             {/* <ConnectButton /> */}
+            <a
+              href="https://www.okpal.com/riad-promotion-de-l-art-de-la-reunion"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Financement className={styles["header-link-social"]} />
+            </a>
             <a
               href="https://twitter.com/ReunionArt"
               target="_blank"
@@ -280,6 +287,13 @@ export default function Header({ size }) {
           </ul>
         </nav>
         <div className={styles["header-social-section"]}>
+          <a
+            href="https://www.okpal.com/riad-promotion-de-l-art-de-la-reunion"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Financement className={styles["header-link-social"]} />
+          </a>
           <a
             href="https://twitter.com/ReunionArt"
             target="_blank"
