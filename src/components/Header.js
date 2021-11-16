@@ -1,5 +1,5 @@
 import styles from "styles/Header.module.scss";
-import { Facebook, Twitter, Discord } from "./Icons";
+import { Facebook, Twitter, Discord, Instagram } from "./Icons";
 import Image from "next/image";
 // import Swal from "sweetalert2";
 // import withReactContent from "sweetalert2-react-content";
@@ -105,7 +105,14 @@ export default function Header({ size }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Discord className={styles["header-link-social"]} />
+              <Facebook className={styles["header-link-social"]} />
+            </a>
+            <a
+              href="https://www.instagram.com/reunion.island.art.digitizer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Instagram className={styles["header-link-social"]} />
             </a>
           </div>
           <nav>
@@ -293,6 +300,13 @@ export default function Header({ size }) {
             rel="noopener noreferrer"
           >
             <Facebook className={styles["header-link-social"]} />
+          </a>
+          <a
+            href="https://www.instagram.com/reunion.island.art.digitizer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Instagram className={styles["header-link-social"]} />
           </a>
         </div>
       </div>

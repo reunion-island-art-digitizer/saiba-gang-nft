@@ -22,6 +22,20 @@ export default function Footer() {
         >
           <Discord className={styles["footer-social-link"]} />
         </a>
+          <a
+            href="https://www.facebook.com/riageck"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Facebook className={styles["header-link-social"]} />
+          </a>
+          <a
+            href="https://www.instagram.com/reunion.island.art.digitizer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Instagram className={styles["header-link-social"]} />
+          </a>
       </div>
     </footer>
   );
