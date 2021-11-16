@@ -1,5 +1,5 @@
 import styles from "styles/Header.module.scss";
-import { Wallet, Twitter, Discord } from "./Icons";
+import { Facebook, Twitter, Discord } from "./Icons";
 import Image from "next/image";
 // import Swal from "sweetalert2";
 // import withReactContent from "sweetalert2-react-content";
@@ -95,6 +95,13 @@ export default function Header({ size }) {
             </a>
             <a
               href="https://discord.com/invite/8XVQGVqfbb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Discord className={styles["header-link-social"]} />
+            </a>
+            <a
+              href="https://www.facebook.com/riageck"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -279,6 +286,13 @@ export default function Header({ size }) {
             rel="noopener noreferrer"
           >
             <Discord className={styles["header-link-social"]} />
+          </a>
+          <a
+            href="https://www.facebook.com/riageck"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Facebook className={styles["header-link-social"]} />
           </a>
         </div>
       </div>
