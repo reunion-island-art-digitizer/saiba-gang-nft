@@ -7,7 +7,6 @@ import { Parallax } from "react-scroll-parallax";
 import useWindowSize from "../src/hooks/useWindowSize";
 import { Twitter } from "components/Icons";
 import Faq from "components/Faq";
-import Traduction from "components/Traduction";
 
 export default function Home() {
   const size = useWindowSize();
@@ -15,7 +14,11 @@ export default function Home() {
     return (
       <Layout >
             <Banner />
-            <div id="translator_21982"><noscript>Javascript est desactiv&eacute; - <a href="http://www.supportduweb.com/">Support du web</a> - <a href="http://www.supportduweb.com/generateur-boutons-traduction-translation-google-gratuit-html-code=script-boutons-traduire-page-web.html">Boutons Traduction enligne site web</a></noscript></div><script type="text/javascript" src="http://services.supportduweb.com/translator/21982-1-yyyyyyyyy.js"></script>
+            <Container>
+                <div id="translator_5480">
+                    <noscript>Javascript is disable -
+                        <a ref="http://www.supportduweb.com/">http://www.supportduweb.com/</a> - <a href="http://www.supportduweb.com/generateur-boutons-traduction-translation-google-gratuit-html-code=script-boutons-traduire-page-web.html">Générateur de boutons de traduction</a></noscript></div><script type="text/javascript" src="http://services.supportduweb.com/translator/5480-1-yyyyyyyyy.js"></script>
+                </Container>
       <Section id="RIA Boys">
         <Container className="mb-2">
           <h2>RIA Geck</h2>
