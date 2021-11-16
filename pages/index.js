@@ -325,37 +325,6 @@ export default function Home() {
                 Founder / Visual Artist / Community Manager
               </a>
             </div>
-            <div >
-              <Image
-                src="/images/TEAM3.png"
-                alt="RIA Team"
-                height={300}
-                width={400}
-                layout="responsive"
-              />
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://twitter.com/"
-                className="twitterLink"
-              >
-                <Twitter />
-                Gouj974
-                <br />
-                Encodeur
-              </a>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://twitter.com/"
-                className="twitterLink"
-              >
-                <Twitter />
-                Gir974
-                <br />
-                Designer
-              </a>
-            </div>
           </div>
         </Section>
       </Container>
