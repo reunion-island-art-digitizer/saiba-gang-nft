@@ -1,4 +1,4 @@
-import Layout from "components/Layout";
+﻿import Layout from "components/Layout";
 import Section from "components/Section";
 import Banner from "components/Banner";
 import Container from "components/Container";
@@ -18,46 +18,46 @@ export default function Home() {
         <Container className="mb-2">
           <h2>RIA Geck</h2>
           <p>
-            The art of Reunion Island has been unknown to ordinary people for years.
-            Our mission is to promote this wonderful art to the whole world.                              
+            L'art réunionnais est méconnu du commun des mortels depuis des années.
+            Notre mission est de promouvoir cet art merveilleux dans le monde entier. L'art réunionnais est méconnu du commun des mortels depuis des années.
+            Notre mission est de promouvoir cet art merveilleux dans le monde entier.
           </p>
           <p>
-            To achieve this, we will create an association to help promote artists.
-            Once gathered in this place, we will be able to launch their careers in Web 3.0 with NFTs. 
-            We will create an NFT Market with Coin tips for the artists of Reunion Island .            
+            Pour y parvenir, nous allons créer une association pour aider à promouvoir les artistes.
+            Une fois réunis dans ce lieu, nous pourrons lancer leurs carrières dans le Web 3.0 avec les NFT.
+            Nous allons créer un Marché NFT avec des bons plans Coin pour les artistes de La Réunion.
           </p>
-          <h3> For that, we need you !</h3>
+          <h3> Pour cela, nous avons besoin de vous !</h3>
           <p>
-            We created RIA Geck in order to bring together enough people interested in art and ready to participate in this project.
-          </p>
-          <p>
-            You made the right decision in seeking employment with us and as such you
-            will be tested to make sure you are made to be a RIA Geck.
-            You will start as an insider and will need to prove yourself to rise in our ranks.
+            Nous avons créé RIA Geck afin de réunir suffisamment de personnes intéressées par l'art et intéressés pour participer à ce projet.
           </p>
           <p>
-            The RIA Geck have very limited places for recruiting and will not be accepting any
-            more insiders once we have recruited 9 740 members.
+            Vous avez pris la bonne décision en cherchant une place chez nous et, en tant que tel, vous serez testé pour s'assurer que vous êtes bien un RIA Geck.
+            Vous commencerez en tant qu'initié et devrez faire vos preuves pour monter dans nos rangs.
           </p>
           <p>
-            If you want to be part of this adventure with us and be respected,
-            make sure you are one of the 9 740 RIA Geck.
+            Les RIA Geck ont ​​trés peu de places pour le recrutement et n'accepteront aucun
+            initiés de plus une fois les 9 740 membres recrutés.
           </p>
-          <h3>For this project, we want to :</h3>
-          <p>                        
-                        - create an association to promote artists in order to support them in this process,
+          <p>
+            Si vous voulez faire partie de cette aventure avec nous et être respecté,
+            assurez-vous que vous êtes l'un des 9 740 RIA Geck.
           </p>
+          <h3>Pour ce projet, nous voulons : :</h3>
           <p>                        
-                        - a dedicated online NFT creation and sale platform,
-          </p>
-          <p>                        
-                        - a cryptocurrency for tips for artists,
+                        - créer une association de promotion des artistes afin de les accompagner dans notre procéssus,
           </p>
           <p>                        
-                        - acquire an exhibition room for physical and virtual works
+                        - ouvrir une plateforme en ligne de création et de vente de NFT (Non Fongible Token)
           </p>
           <p>                        
-                        - create a metaverse (encrypted virtual world) of meeting between artists and their fans as well as the NFT exhibition.
+                        - créer une cryptomonnaie utilisable afin d'acheter des oeuvre d'artistes ou pour laisser des poubroires,
+          </p>
+          <p>                        
+                        - acquérir une salle d'exposition d'oeuvres réelles et virtuelles,
+          </p>
+          <p>                        
+                        - créer un métaverse (monde virtuel 3D crypté) permettant la rencontre des artistes et de leurs fans ainsi que l'exposition des oeuvres.
           </p>
                 </Container>
         <Container>
@@ -148,12 +148,12 @@ export default function Home() {
     <Container >
        <Section id="own">
          <h2>Own to Earn</h2>
-                    <p>Owning a RIA Geck allows you to regularly get benefits when we will launch future artist NFTs, RIAD Token, RIAD Marketplace, IDOs and more.</p>
-                    <p>This system, which is called Own to Earn, is set up to create a real community around artists.</p>
-                    <p>For this, an entire ecosystem will be created around this community through the RIAD project (Reunion Island Artist Digitizer) of which RIA Geck is the first stone.</p>
-                    <p>We will develop a marketplace, a token tips, a virtual gallery and a metaverse. All holders with Reunion Island's colors will be abble to win some giveaways, airdrops and more.</p>
-                    <p>The community is the most important in this project. For that, all holders will have the right to vote on decisions concerning the progress of the project.</p>
-                    <p>All holders with Reunion Island's flag colors will have a VIP place in our futur metaverse island.</p>
+                    <p>Posséder un RIA Geck vous permettra d'obtenir régulièrement des avantages lorsque nous lancerons de futurs artistes NFT, RIAD Token, RIAD Marketplace, IDO et plus encore.</p>
+                    <p>Ce système, qui s'appelle Own to Earn, est mis en place pour créer une véritable communauté autour des artistes.</p>
+                    <p>Pour cela, tout un écosystème sera créé autour de cette communauté à travers le projet RIAD (Reunion Island Artist Digitizer) dont RIA Geck est la première pierre.</p>
+                    <p>Nous développerons une marketplace, un token tips, une galerie virtuelle et un métaverse. Tous les détenteurs aux couleurs de La Réunion pourront gagner des cadeaux, des airdrops et plus encore.</p>
+                    <p>La communauté est la plus importante dans ce projet. Pour cela, tous les titulaires auront le droit de voter sur les décisions concernant l'avancement du projet.</p>
+                    <p>Tous les détenteurs de NFT aux couleurs du drapeau réunionnais auront une place VIP dans notre future île du métaverse.</p>
                     <div>
                         <Image
                 src="/images/Earn.png"
@@ -168,12 +168,12 @@ export default function Home() {
     <Container >
        <Section id="mint">
          <h2>Mint</h2>
-                    <p>9 730 RIA Geck drawn by hand and generated randomly will be available during the mint.</p>
-                    <p>The various attributes will be distributed randomly with more or less rarity.</p>
-                    <p>Some attributes using the colors of the Reunion Island flag will be extremely rare.</p>
-                    <p>They will be accompanied by 10 RIA Geck representing famous characters.</p>
-                    <p>Hold one of its specific attributes or one of the known characters will bring even more benefits to the holders.</p>
-                    <p>Lucky owners will be able to access unique artist #NFTs, private sales, IRL meetings and more.</p>
+                    <p>9 730 RIA Geck dessinés à la main et générés aléatoirement seront disponibles lors du mint.</p>
+                    <p>Les différents attributs seront répartis aléatoirement avec plus ou moins de rareté.</p>
+                    <p>Certains attributs utilisant les couleurs du drapeau réunionnais seront extrêmement rares.</p>
+                    <p>Ils seront accompagnés de 20 RIA Geck représentant des personnages célèbres.</p>
+                    <p>Détenir l'un de ses attributs spécifiques ou l'un des personnages connus apportera encore plus d'avantages aux détenteurs.</p>
+                    <p>Les propriétaires chanceux pourront accéder à des #NFT d'artistes uniques, à des ventes privées, à des réunions IRL et plus encore.</p>
        </Section>
     </Container>
             <Container>
@@ -194,7 +194,7 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1>Mint</h1>
-                        <p>9740 RIA Geck will born and added to Rarity Tools.</p>
+                        <p>9740 RIA Geck naîtront et seront ajoutés à un Rarity Tools.</p>
                     </div>
 
                 </div>
@@ -209,7 +209,7 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Giweavays Holder</h1>
-                        <p> 10 random RIA Geck holders will receive 1 more NFT.</p>
+                        <p> 10 détenteurs aléatoires de RIA Geck recevront 1 NFT supplémentaire.</p>
                     </div>
 
                 </div>
@@ -223,7 +223,7 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Association</h1>
-                        <p>Creation of the association for the promotion of Reunion Island Artists.</p>
+                        <p>Création de l'association pour la promotion des artistes réunionnais.</p>
                     </div>
 
                 </div>
@@ -238,7 +238,7 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Giveaway</h1>
-                        <p>6 giveaways for twitter, discord, and holders in partnership with our artists.</p>
+                        <p>6 cadeaux pour twitter, discord et les détenteurs en partenariat avec nos artistes.</p>
                     </div>
 
                 </div>
@@ -252,9 +252,9 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Marketplace</h1>
-                        <p>Delivery of marketplace for our Reunion Island Artists.
-                            Codding of RIAD Coin for tips artist.
-                            Birth of an other RIAD #NFT project.</p>
+                        <p>Livraison de la marketplace pour nos artistes réunionnais.
+                            Codage du RIAD Coin.
+                            Naissance d'un autre projet RIAD #NFT.</p>
                     </div>
 
                 </div>
@@ -268,9 +268,10 @@ export default function Home() {
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Life of project</h1>
-                        <p>Launch of the global RIAD project : Reunion Island Art Digitizer.
-                            Purchase and creation of a real exhibition room.
-                            Build RIAD metaverse to organize meetings between artists and their fans.</p>
+                        <p>Lancement du projet global RIAD : Reunion Island Art Digitizer.
+                            Achat et création d'une véritable salle d'exposition.
+                            Construction du métaverse RIAD à l'image de la Réunion pour
+                            organiser des rencontres entre les artistes et leurs fans.</p>
                     </div>
 
                 </div>

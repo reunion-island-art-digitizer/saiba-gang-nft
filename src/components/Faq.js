@@ -15,7 +15,7 @@ export default function Faq() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        When does RIA Geck launch ?
+                        Quand est-ce que RIA Geck se lance ?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -27,50 +27,52 @@ export default function Faq() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        How can I buy and how many can I mint ?
+                        Comment et cobien puis-je en acheter ?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                        On launch day, the link will be transmitted on discord and twitter.
-                        Then, you simply click mint, connect your phantom wallet (please use a desktop / laptop when doing so), and then you can go ahead.
-                        There is a limit of 10 RIA Geck you can mint in any one transaction.
+                        Le jour du lancement, le lien sera transmis sur Discord et Twitter.
+                        Ensuite, il vous suffit de cliquer sur mint, de connecter votre portefeuille phantom
+                        (veuillez utiliser un ordinateur de bureau/ordinateur portable pour le faire.), puis vous pouvez continuer.
+                        Il y a une limite de 10 RIA Geck que vous pouvez acheter par transaction.
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Will there be instant reveal ?
+                        Y aura-t-il une révélation instantanée ?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                    Reveal will be instant.
+                    La rvélation sera instantanée.
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
             <AccordionItemHeading>
                 <AccordionItemButton>
-                    What is the association that I keep hearing about ?
+                    Quelle est l'association dont j'entends toujours parler ?
                 </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
                 <p>
-                    The future artists association will open its doors on Reunion Island in order to promote the different art forms of the island to the whole world.
+                    La future association d'artistes ouvrira ses portes à La Réunion afin de promouvoir les différentes formes d'art de l'île dans le monde entier.
+                    Elle permettra également d'accompagner les artistes dans l'univers du Web 3.0.
                 </p>
             </AccordionItemPanel>
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Will we be able to resell the Ria Geck on secondary markets ?
+                        Pourra-t-on revendre la Ria Geck sur les marchés secondaires ?
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                        The secondary markets can be used as well as our future market dedicated to artists from Reunion Island and RIA Geck holders.
+                        Les marchés secondaires pourront être utilisés ainsi que notre futur marché dédié aux artistes réunionnais et aux détenteurs de RIA Geck.
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
