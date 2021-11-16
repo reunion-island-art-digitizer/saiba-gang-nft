@@ -1,16 +1,14 @@
 export default function Traduction() {
     return (
-<Container>
-<div>
-    <noscript>Javascript is disable
-            <a href="http://www.supportduweb.com/"> http://www.supportduweb.com/
-            </a>
-            <a href="http://www.supportduweb.com/generateur-boutons-traduction-translation-google-gratuit-html-code=script-boutons-traduire-page-web.html"> Générateur de boutons de traduction
-            </a>
-    </noscript>
-</div>
-        <script type="text/javascript" src="http://services.supportduweb.com/translator/659-4-yyyyyyyyy.js">
-            </script>
+        <Container>
+            <div id="google_translate_element"></div>
+            <script type="text/javascript"
+                src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <cript type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en'},
+                }
+                </script>
 </Container>
     );
 }
