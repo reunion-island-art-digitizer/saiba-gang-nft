@@ -16,6 +16,7 @@ export default function Home() {
             <Banner />            
       <Section id="RIA Boys">
         <Container className="mb-2">
+                    <div id="translator_659"><noscript>Javascript is disable - <a href="http://www.supportduweb.com/">http://www.supportduweb.com/</a> - <a href="http://www.supportduweb.com/generateur-boutons-traduction-translation-google-gratuit-html-code=script-boutons-traduire-page-web.html">Générateur de boutons de traduction</a></noscript></div><script type="text/javascript" src="http://services.supportduweb.com/translator/659-4-yyyyyyyyy.js"></script>
           <h2>RIA Geck</h2>
           <p>
             L'art réunionnais est méconnu du commun des mortels depuis des années.
