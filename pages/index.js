@@ -66,35 +66,35 @@ export default function Home() {
                 src="/images/Ulule asso-01.png"
                 alt="Association"
                 height={600}
-                width={}
+                width={1200}
                 layout="responsive"
               />
               <Image
                 src="/images/Ulule market-01.png"
                 alt="Association"
                 height={600}
-                width={}
+                width={1200}
                 layout="responsive"
               />
               <Image
                 src="/images/Ulule crypto-01.png"
                 alt="Association"
                 height={600}
-                width={}
+                width={1200}
                 layout="responsive"
               />
               <Image
                 src="/images/Ulule salle d'expo-01.png"
                 alt="Association"
                 height={600}
-                width={}
+                width={1200}
                 layout="responsive"
               />
               <Image
                 src="/images/Ulule metaverse-01.png"
                 alt="Association"
                 height={600}
-                width={}
+                width={1200}
                 layout="responsive"
               />
                 </div>
