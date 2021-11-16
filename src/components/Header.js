@@ -1,5 +1,5 @@
 import styles from "styles/Header.module.scss";
-import { Facebook, Twitter, Discord, Instagram } from "./Icons";
+import { Instagram, Facebook, Twitter, Discord, } from "./Icons";
 import Image from "next/image";
 // import Swal from "sweetalert2";
 // import withReactContent from "sweetalert2-react-content";
