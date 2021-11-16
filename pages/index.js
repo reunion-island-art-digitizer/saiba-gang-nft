@@ -43,6 +43,20 @@ export default function Home() {
             If you want to be part of this adventure with us and be respected,
             make sure you are one of the 9 740 RIA Geck.
           </p>
+          <h3>For this project, we want to :</h3>
+
+          <p>                        
+                        - create an association to promote artists in order to support them in this process,
+                        - a dedicated online NFT creation and sale platform,
+                        - a cryptocurrency for tips for artists,
+                        - acquire an exhibition room for physical and virtual works
+                        - create a metaverse (encrypted virtual world) of meeting between artists and their fans as well as the NFT exhibition.
+          </p>
+              <Image
+                src="/images/Ulule asso-01.png"
+                alt="Association"
+                layout="responsive"
+              />
                 </Container>
         <div className="overflow-scroll">
           <Parallax
