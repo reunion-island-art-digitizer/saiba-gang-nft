@@ -1,13 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\configs",
-    "\\pages",
-    "\\public",
-    "\\public\\fonts",
-    "\\src",
-    "\\src\\components",
+    "\\gsap-public",
     "\\styles"
   ],
+  "SelectedNode": "\\styles\\globals.scss",
   "PreviewInSolutionExplorer": false
 }

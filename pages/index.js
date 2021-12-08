@@ -19,13 +19,13 @@ export default function Home() {
           <h2>RIA Geck</h2>
           <p>
             L'art réunionnais est méconnu du commun des mortels depuis des années.
-            Notre mission est de promouvoir cet art merveilleux dans le monde entier. L'art réunionnais est méconnu du commun des mortels depuis des années.
             Notre mission est de promouvoir cet art merveilleux dans le monde entier.
           </p>
           <p>
             Pour y parvenir, nous allons créer une association pour aider à promouvoir les artistes.
-            Une fois réunis dans ce lieu, nous pourrons lancer leurs carrières dans le Web 3.0 avec les NFT.
-            Nous allons créer un Marché NFT avec des bons plans Coin pour les artistes de La Réunion.
+            Une fois réunis dans ce lieu, nous pourrons lancer leurs carrières dans le Web 3.0 avec les NFTs.
+            Nous allons créer une plateforme de création et de vente de NFTs complété par un RIAD Token pour
+            acheter des oeuvres et financer les artistes de La Réunion.
           </p>
           <h3> Pour cela, nous avons besoin de vous !</h3>
           <p>
@@ -189,12 +189,14 @@ export default function Home() {
                        
                     </div>
                     <div className="tl-year">
-                        <p className="f2 heading--sanSerif">Nov 2021</p>
+                        <p className="f2 heading--sanSerif">4e Trimestre 2021</p>
                     </div>
 
                     <div className="tl-content">
-                        <h1>Mint</h1>
-                        <p>9740 RIA Geck naîtront et seront ajoutés à un Rarity Tools.</p>
+                        <h1>Lancement</h1>
+                        <p>- Lancement du site internet
+                           - Lancement de la campagne de financement participatif
+                           - Lancement sur Twitter, Facebook, Discord, Telegram </p>
                     </div>
 
                 </div>
@@ -204,12 +206,15 @@ export default function Home() {
                         
                     </div>
                     <div className="tl-year">
-                        <p className="f2 heading--sanSerif">Dec 2021</p>
+                        <p className="f2 heading--sanSerif">1er Trimestre 2022</p>
                     </div>
 
                     <div className="tl-content">
-                        <h1 className="f3 text--accent ttu">Giweavays Holder</h1>
-                        <p> 10 détenteurs aléatoires de RIA Geck recevront 1 NFT supplémentaire.</p>
+                        <h1 className="f3 text--accent ttu">Mint</h1>
+                        <p> - Mint des RIA Geck
+                            - Création de l’association RIAD
+                            - Lancement de la plateforme en ligne
+                            - Pré-vente RIAD Token</p>
                     </div>
 
                 </div>
@@ -218,12 +223,13 @@ export default function Home() {
                     <div className="tl-bg2">
                     </div>
                     <div className="tl-year">
-                        <p className="f2 heading--sanSerif">Janv 2022</p>
+                        <p className="f2 heading--sanSerif">2e Trimestre 2022</p>
                     </div>
 
                     <div className="tl-content">
-                        <h1 className="f3 text--accent ttu">Association</h1>
-                        <p>Création de l'association pour la promotion des artistes réunionnais.</p>
+                        <h1 className="f3 text--accent ttu">Giveaways</h1>
+                        <p>- Cadeaux aux détenteurs : 50 détenteurs de RIA Geck auront 1 NFT de 2ème génération
+                            - Cadeaux d’artistes : 6 oeuvres d’artistes de l’île de la Réunion seront offerts sur Twitter, Facebook, Discord et aux détenteurs.</p>
                     </div>
 
                 </div>
@@ -247,31 +253,15 @@ export default function Home() {
                         
                     </div>
                     <div className="tl-year">
-                        <p className="f2 heading--sanSerif">Mar 2022</p>
-                    </div>
-
-                    <div className="tl-content">
-                        <h1 className="f3 text--accent ttu">Marketplace</h1>
-                        <p>Livraison de la marketplace pour nos artistes réunionnais.
-                            Codage du RIAD Coin.
-                            Naissance d'un autre projet RIAD #NFT.</p>
-                    </div>
-
-                </div>
-                <div className="tl-item">
-                    <div className="tl-bg5" >
-                        
-                    </div>
-                    <div className="tl-year">
-                        <p className="f2 heading--sanSerif">After</p>
+                        <p className="f2 heading--sanSerif">3e Trimestre 2022 et plus</p>
                     </div>
 
                     <div className="tl-content">
                         <h1 className="f3 text--accent ttu">Life of project</h1>
-                        <p>Lancement du projet global RIAD : Reunion Island Art Digitizer.
-                            Achat et création d'une véritable salle d'exposition.
-                            Construction du métaverse RIAD à l'image de la Réunion pour
-                            organiser des rencontres entre les artistes et leurs fans.</p>
+                        <p>- Acquisition et création d’une salle d’exposition
+                            - Evènements réels et virtuels
+                            - Développement DAO RIAD avec les détenteurs
+                            - Vie du projet RIAD </p>
                     </div>
 
                 </div>
